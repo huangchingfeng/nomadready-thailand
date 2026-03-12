@@ -55,6 +55,9 @@ The DTV is Thailand's first visa explicitly targeting digital nomads. Launched i
 ### Can You Work Legally?
 **The nuanced answer:** The DTV is technically classified as a tourist visa, so no formal work permit is issued. However, the visa is explicitly designed for remote workers. Working on your laptop for overseas clients/employers is the intended use. You **cannot** work for Thai companies or take local clients.
 
+### ⚠️ 2026 Enforcement Update
+Thailand's TDAC system now **cross-references bank inflows with visa types**. DTV holders who receive payments from Thai-registered companies — even small "consulting fees" — may trigger an investigation. Stick to foreign-source income only. The immigration-bank-tax data sharing is real and getting more systematic. See [Chapter 8: Tax Implications](/guide/08-tax-implications) for details.
+
 ### Pro Tips
 - Document requirements **vary by embassy** — check your specific embassy's requirements before applying
 - Have your employment contract and company registration **authenticated/notarized** by the embassy first

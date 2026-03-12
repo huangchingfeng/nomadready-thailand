@@ -79,6 +79,19 @@ Check your country: [rd.go.th/english/766.html](https://www.rd.go.th/english/766
 
 ---
 
+## ⚠️ 2026 Enforcement Reality
+
+Thailand's Revenue Department has moved from "rules on paper" to **active enforcement**:
+
+- **Data matching is live:** Immigration records, bank transactions, and tax filings are now systematically cross-referenced. The TDAC system flags anomalies between your visa type and financial activity.
+- **DTV holders under scrutiny:** If you hold a DTV and receive payments from Thai-registered entities, expect questions. Even small consulting fees can trigger an audit.
+- **Filing deadline:** 2025 tax year returns are due **March 31, 2026** (some extensions to April 8). Both residents and non-residents with Thai-source income must file.
+- **Proposed grace period:** The Revenue Department has proposed exempting foreign-sourced income from tax if remitted within the same or following tax year. This is **not yet enacted** — do not rely on it until officially passed.
+
+**Bottom line:** The "nobody enforces it" era is over. Plan accordingly.
+
+---
+
 ## Strategies to Minimize Thai Tax
 
 ### 1. Stay Under 180 Days

@@ -50,7 +50,9 @@
 ### Drug Laws 💊
 **Thailand has extremely strict drug laws.** Possession of hard drugs can carry a **death penalty.**
 
-> ⚠️ **CANNABIS WARNING (Updated June 2025):** Cannabis has been **re-criminalized in Thailand** as of June 25, 2025. Recreational use, sale, and possession without a valid medical prescription are **ILLEGAL**. Penalties include fines up to **25,000 THB** and up to **3 months imprisonment**. Do not buy, carry, or use cannabis products unless you have a legitimate Thai medical prescription. The brief 2022-2025 decriminalization period is over — treat cannabis the same as any other controlled substance.
+> ⚠️ **CANNABIS WARNING (Updated March 2026):** Cannabis has been **re-criminalized in Thailand** as of June 25, 2025. Recreational use, sale, and possession without a valid medical prescription are **ILLEGAL**. Penalties include fines up to **25,000 THB** and up to **3 months imprisonment**. Do not buy, carry, or use cannabis products unless you have a legitimate Thai medical prescription. The brief 2022-2025 decriminalization period is over.
+>
+> **What changed:** Cannabis flower is now classified as a "controlled herb" under public health law (not a narcotic, but still illegal without prescription). Over **7,000 cannabis shops have closed** since the crackdown. Public consumption enforcement has visibly increased. Personal cultivation remains technically legal, but commercial sale requires strict GACP licensing. The 0.2% THC threshold still applies to extracts and products. **Importing or exporting any cannabis product is strictly prohibited** with severe penalties.
 
 - Methamphetamine, heroin, cocaine, ecstasy: serious prison time
 - Don't accept packages from strangers
