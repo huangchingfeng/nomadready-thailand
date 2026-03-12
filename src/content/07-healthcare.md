@@ -46,7 +46,7 @@
 | Provider | Cost (30s) | Best For | Covers Pre-existing? |
 |----------|-----------|----------|---------------------|
 | **SafetyWing Essential** | ~$56/4 weeks | Budget emergency cover | No |
-| **SafetyWing Complete** | Higher | Comprehensive nomad cover | Yes |
+| **SafetyWing Complete** | ~$150-160/month | Comprehensive nomad cover (12-month commitment) | Yes |
 | **Pacific Cross** | $80+/month | Affordable expat cover | Some plans |
 | **AXA Thailand** | $150-500+/month | Premium expat cover | Some plans |
 | **World Nomads** | $100-200/month | Adventure travelers | No |

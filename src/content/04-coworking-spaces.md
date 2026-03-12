@@ -11,11 +11,11 @@
 | Space | Day Pass | Monthly | WiFi | Best Feature |
 |-------|----------|---------|------|-------------|
 | AIS Design Centre | **FREE** | N/A | 100-200 Mbps | Free premium space |
-| Hubba | 290 THB ($8) | 4,500 THB ($130) | 100-200 Mbps | OG startup vibe |
+| Hubba | 290 THB ($8) | Contact for pricing | 100-200 Mbps | OG startup vibe |
 | True Digital Park | 321 THB ($9) | 4,500 THB ($130) | 200-500 Mbps | Tech ecosystem |
 | The COMMONS | 350 THB ($10) | 5,000 THB ($150) | 100-150 Mbps | Food market below |
 | The Hive Thonglor | 399 THB ($12) | 6,500 THB ($195) | 100-200 Mbps | Rooftop + community |
-| WeWork | 480 THB ($14) | 5,600 THB ($170) | 150-300 Mbps | 24/7 + global access |
+| WeWork | 480 THB ($14) | 8,000+ THB ($240+) | 150-300 Mbps | 24/7 + global access |
 | JustCo | 350 THB ($10) | 7,200 THB ($215) | 150-250 Mbps | Corporate premium |
 | The Great Room | 750 THB ($22) | 9,000 THB ($270) | 200-400 Mbps | Luxury skyline views |
 

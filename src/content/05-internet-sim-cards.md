@@ -18,17 +18,19 @@
 **AIS (Recommended)**
 | Duration | Data | Price |
 |----------|------|-------|
-| 8 days | 15 GB | 299 THB ($9) |
-| 15 days | 30 GB | 599 THB ($17) |
-| 30 days | 50 GB | 799 THB ($23) |
-| 30 days | 100 GB | 1,199 THB ($35) |
+| 8 days | Unlimited 5G/4G | 499 THB ($16) |
+| 15 days | 35 GB + free social apps | 299-599 THB ($9-17) |
+| 15 days | Unlimited 5G/4G | 699 THB ($22) |
+| 30 days | Unlimited 5G/4G | 1,199 THB ($38) |
+| 60 days | Unlimited 5G/4G | 1,599 THB ($51) |
 
 **TrueMove H**
 | Duration | Data | Price |
 |----------|------|-------|
-| 8 days | Unlimited | 449 THB ($13) |
-| 15 days | Unlimited | 699 THB ($20) |
-| 30 days | Unlimited | 1,199 THB ($35) |
+| 8 days | Unlimited | 499 THB ($15) |
+| 15 days | Unlimited | 699 THB ($21) |
+| 30 days | Unlimited | 1,199 THB ($37) |
+| 30 days | 5 GB + unlimited social | 199 THB ($6) |
 
 **Where to buy:** Airport arrival halls (BKK and DMK have kiosks for all carriers past customs), any 7-Eleven, or carrier shops in malls. **Bring your passport** — required for SIM registration.
 
