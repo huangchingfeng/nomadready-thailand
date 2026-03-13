@@ -14,42 +14,33 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nomadready.com'),
-  title: 'NomadReady: Thailand — Interactive Digital Nomad Guide',
+  title: 'NomadReady — Digital Nomad Country Guides',
   description:
-    'The interactive guide that saves you 40+ hours of research. Visa guides, cost breakdowns, neighborhood picks, and AI-powered tools — everything you need before you land in Thailand.',
+    'Interactive digital nomad guides for Thailand, Bali, and more. AI-powered, always updated. Visa, cost of living, neighborhoods, coworking, banking — everything you need before you land.',
   keywords: [
     'digital nomad',
+    'nomad guide',
     'Thailand',
+    'Bali',
     'visa guide',
     'cost of living',
-    'Bangkok',
-    'Chiang Mai',
     'remote work',
-    'nomad guide',
+    'coworking',
   ],
   openGraph: {
-    title: 'NomadReady: Thailand — Interactive Digital Nomad Guide',
+    title: 'NomadReady — Digital Nomad Country Guides',
     description:
-      'Save 40+ hours of research. AI-powered tools, 11 expert chapters, and always-updated info for digital nomads in Thailand.',
+      'Interactive digital nomad guides for Thailand, Bali, and more. AI-powered tools, expert chapters, always updated.',
     type: 'website',
     locale: 'en_US',
     url: 'https://nomadready.com',
     siteName: 'NomadReady',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'NomadReady: Thailand Digital Nomad Guide',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NomadReady: Thailand — Interactive Digital Nomad Guide',
+    title: 'NomadReady — Digital Nomad Country Guides',
     description:
-      'Save 40+ hours of research. AI-powered tools, 11 expert chapters, and always-updated info for digital nomads in Thailand.',
-    images: ['/og-image.png'],
+      'Interactive digital nomad guides for Thailand, Bali, and more. AI-powered tools, expert chapters, always updated.',
   },
 };
 

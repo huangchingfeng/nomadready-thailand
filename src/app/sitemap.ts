@@ -62,14 +62,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Dynamic chapter pages
-  const chapters = getAllChapters();
-  const chapterPages: MetadataRoute.Sitemap = chapters.map((chapter) => ({
-    url: `${baseUrl}/guide/${chapter.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
-  }));
+  // Dynamic chapter pages for all countries
+  const thailandChapters = getAllChapters('thailand');
+  const baliChapters = getAllChapters('bali');
+
+  const chapterPages: MetadataRoute.Sitemap = [
+    ...thailandChapters.map((chapter) => ({
+      url: `${baseUrl}/thailand/${chapter.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    })),
+    ...baliChapters.map((chapter) => ({
+      url: `${baseUrl}/bali/${chapter.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    })),
+  ];
 
   return [...staticPages, ...chapterPages];
 }

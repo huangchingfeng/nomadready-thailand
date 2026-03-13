@@ -10,53 +10,59 @@ export interface Chapter {
   description: string;
 }
 
-const CONTENT_DIR = path.join(process.cwd(), 'src', 'content');
+export type Country = 'thailand' | 'bali';
 
-// 優先使用較長版本的檔案（有些章節有兩個版本）
-const PREFERRED_FILES: Record<string, string> = {
-  '09': '09-safety-practical.md',
-  '10': '10-community.md',
-  '11': '11-30-day-checklist.md',
-};
+export const SUPPORTED_COUNTRIES: Country[] = ['thailand', 'bali'];
 
-// 章節描述（用於 chapter overview cards）
-const CHAPTER_DESCRIPTIONS: Record<number, string> = {
-  0: 'Overview of the complete guide and what you\'ll learn inside.',
-  1: 'DTV, LTR, Elite, Tourist — which visa fits your situation? Side-by-side comparison with costs, requirements, and step-by-step application guides.',
-  2: 'Exact monthly budgets for Bangkok, Chiang Mai, Phuket, Pattaya, and Koh Samui. From budget ($800/mo) to premium ($3,000/mo).',
-  3: 'Neighborhood breakdown for 5 cities. Where to live based on your vibe, budget, and work style.',
-  4: 'Best coworking spaces ranked by WiFi speed, price, and community. Plus free alternatives.',
-  5: 'SIM cards, fiber internet, mobile plans, and backup options. Stay connected everywhere.',
-  6: 'Thai bank accounts, international transfers, crypto, and the best cards for nomads.',
-  7: 'Hospital ratings, insurance options, costs, and emergency procedures. Stay safe and healthy.',
-  8: 'Tax residency rules, double taxation treaties, and structures to stay compliant.',
-  9: 'Scams to avoid, transportation, etiquette, emergency numbers, and daily life hacks.',
-  10: 'Nomad communities, meetups, dating, making friends, and finding your tribe.',
-  11: 'Day-by-day action plan from pre-departure to fully settled. Print it. Check it off.',
+const CONTENT_BASE_DIR = path.join(process.cwd(), 'src', 'content');
+
+const CHAPTER_DESCRIPTIONS: Record<Country, Record<number, string>> = {
+  thailand: {
+    0: "Overview of the complete guide and what you'll learn inside.",
+    1: 'DTV, LTR, Elite, Tourist — which visa fits your situation? Side-by-side comparison with costs, requirements, and step-by-step application guides.',
+    2: 'Exact monthly budgets for Bangkok, Chiang Mai, Phuket, Pattaya, and Koh Samui. From budget ($800/mo) to premium ($3,000/mo).',
+    3: 'Neighborhood breakdown for 5 cities. Where to live based on your vibe, budget, and work style.',
+    4: 'Best coworking spaces ranked by WiFi speed, price, and community. Plus free alternatives.',
+    5: 'SIM cards, fiber internet, mobile plans, and backup options. Stay connected everywhere.',
+    6: 'Thai bank accounts, international transfers, crypto, and the best cards for nomads.',
+    7: 'Hospital ratings, insurance options, costs, and emergency procedures. Stay safe and healthy.',
+    8: 'Tax residency rules, double taxation treaties, and structures to stay compliant.',
+    9: 'Scams to avoid, transportation, etiquette, emergency numbers, and daily life hacks.',
+    10: 'Nomad communities, meetups, dating, making friends, and finding your tribe.',
+    11: 'Day-by-day action plan from pre-departure to fully settled. Print it. Check it off.',
+  },
+  bali: {
+    0: "Overview of the complete Bali guide and what you'll learn inside.",
+    1: 'B211A, KITAS, E33G Visitor Visa — which visa fits your situation? Costs, requirements, and step-by-step application guides.',
+    2: 'Exact monthly budgets for Canggu, Ubud, Seminyak, and Uluwatu. From budget ($900/mo) to premium ($3,500/mo).',
+    3: 'Neighborhood breakdown: Canggu vs Ubud vs Seminyak vs Uluwatu. Where to base yourself.',
+    4: 'Best coworking spaces in Bali ranked by WiFi speed, price, community, and vibe.',
+    5: 'SIM cards, eSIMs, mobile plans, and internet options. Stay connected across the island.',
+    6: 'Indonesian banking, international transfers, crypto, and the best cards for nomads in Bali.',
+    7: 'Clinics, hospitals, insurance options, and medical costs. Stay healthy in Bali.',
+    8: 'Tax residency, Indonesian tax rules, and how to stay compliant as a foreign nomad.',
+    9: 'Scams, traffic, expat etiquette, emergency numbers, and daily survival tips.',
+    10: 'Bali nomad communities, meetups, co-living, and building your social circle.',
+    11: 'Day-by-day action plan from pre-departure to fully settled in Bali. Print it. Check it off.',
+  },
 };
 
 function extractTitleFromContent(content: string): string {
-  // 抓第一個 H1 標題
   const h1Match = content.match(/^#\s+(.+)$/m);
   if (h1Match) {
-    // 清除 markdown 格式
     return h1Match[1].replace(/\*\*/g, '').trim();
   }
   return 'Untitled';
 }
 
-function getChapterTitle(content: string): string {
-  return extractTitleFromContent(content);
-}
+export function getAllChapters(country: Country): Chapter[] {
+  const contentDir = path.join(CONTENT_BASE_DIR, country);
 
-export function getAllChapters(): Chapter[] {
-  const files = fs.readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md'));
+  if (!fs.existsSync(contentDir)) return [];
 
-  // 追蹤已處理的章節號碼，避免重複
+  const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.md'));
   const processedNumbers = new Set<string>();
   const chapters: Chapter[] = [];
-
-  // 先排序，讓 preferred files 可以覆蓋
   const sortedFiles = files.sort();
 
   for (const file of sortedFiles) {
@@ -64,23 +70,17 @@ export function getAllChapters(): Chapter[] {
     if (!numMatch) continue;
 
     const num = numMatch[1];
-
-    // 如果有指定的優先檔案，只用那個
-    if (PREFERRED_FILES[num] && file !== PREFERRED_FILES[num]) {
-      continue;
-    }
-
-    // 跳過已處理的章節號碼
     if (processedNumbers.has(num)) continue;
     processedNumbers.add(num);
 
     const chapterNumber = parseInt(num, 10);
     const slug = file.replace('.md', '');
-    const content = fs.readFileSync(path.join(CONTENT_DIR, file), 'utf-8');
-    const title = getChapterTitle(content);
+    const content = fs.readFileSync(path.join(contentDir, file), 'utf-8');
+    const title = extractTitleFromContent(content);
 
-    // 章節 00-03 免費，04-11 付費
+    // Chapters 00-03 are free, 04-11 require Pro
     const isFree = chapterNumber <= 3;
+    const descriptions = CHAPTER_DESCRIPTIONS[country];
 
     chapters.push({
       slug,
@@ -88,23 +88,23 @@ export function getAllChapters(): Chapter[] {
       chapterNumber,
       content,
       isFree,
-      description: CHAPTER_DESCRIPTIONS[chapterNumber] || '',
+      description: descriptions[chapterNumber] || '',
     });
   }
 
   return chapters.sort((a, b) => a.chapterNumber - b.chapterNumber);
 }
 
-export function getChapterBySlug(slug: string): Chapter | null {
-  const chapters = getAllChapters();
+export function getChapterBySlug(country: Country, slug: string): Chapter | null {
+  const chapters = getAllChapters(country);
   return chapters.find(c => c.slug === slug) || null;
 }
 
-export function getAdjacentChapters(slug: string): {
+export function getAdjacentChapters(country: Country, slug: string): {
   prev: Chapter | null;
   next: Chapter | null;
 } {
-  const chapters = getAllChapters();
+  const chapters = getAllChapters(country);
   const index = chapters.findIndex(c => c.slug === slug);
 
   return {

@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default function GuidePage() {
-  const chapters = getAllChapters();
+  const chapters = getAllChapters('thailand');
 
   const sidebarChapters = chapters.map((ch) => ({
     slug: ch.slug,
@@ -22,7 +22,7 @@ export default function GuidePage() {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <Sidebar chapters={sidebarChapters} />
+      <Sidebar chapters={sidebarChapters} country="thailand" />
 
       {/* Main content */}
       <div className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-10">
@@ -50,7 +50,7 @@ export default function GuidePage() {
                 return (
                   <Link
                     key={chapter.slug}
-                    href={`/guide/${chapter.slug}`}
+                    href={`/thailand/${chapter.slug}`}
                     className="group bg-[var(--bg-card)] border border-[var(--border)] hover:border-[var(--text-muted)] rounded-xl overflow-hidden transition-all duration-200"
                   >
                     {/* Chapter image */}

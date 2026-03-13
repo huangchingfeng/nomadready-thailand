@@ -325,6 +325,591 @@ See **Chapter 2: Cost of Living** for detailed food budgets by city.`,
 See **Chapter 9** and **Chapter 10** for fitness and activities.`,
     chapterRef: '9',
   },
+
+  // --- Nationality-specific visa questions ---
+  {
+    keywords: ['german', 'germany', 'deutsch', 'deutsche'],
+    reply: `**Thailand Visa Info for German Nationals**
+
+Great news — Germany has a visa exemption agreement with Thailand, so you get **60 days free** on arrival by air (extendable by 30 days for 1,900 THB at immigration).
+
+For longer stays, your best options:
+
+- **DTV (Destination Thailand Visa):** Apply at the Thai Embassy in Berlin or Consulate in Frankfurt/Munich. 5-year multi-entry, 180+180 days per entry. Costs ~EUR 250. You'll need proof of 500K THB (~EUR 13,000) in your bank.
+- **LTR Visa:** If you earn EUR 74,000+/year, this 10-year visa gives you a work permit AND tax exemption on foreign income.
+- **Tax note:** Germany has a DTA with Thailand. If you're a German tax resident for part of the year, coordinate carefully — Germany is known for aggressive worldwide taxation rules.
+
+One important thing: make sure to **de-register** (Abmeldung) at your local Einwohnermeldeamt before leaving if you plan to stay long-term. Otherwise, Germany may still consider you a tax resident.
+
+Check **Chapter 1: Visa Complete Guide** for full application steps, and **Chapter 8: Tax Implications** for the DTA details.
+
+Want me to break down the DTV application process step by step?`,
+    chapterRef: '1',
+  },
+  {
+    keywords: ['brazilian', 'brazil', 'brasil', 'brasileiro'],
+    reply: `**Thailand Visa Info for Brazilian Nationals**
+
+Brazil has a visa exemption agreement with Thailand — you get **30 days free** on arrival (shorter than the 60 days that EU/US nationals get).
+
+Your best long-stay options:
+
+- **Tourist Visa (TR):** Apply at the Thai Embassy in Brasilia or Consulate in Sao Paulo. 60 days, extendable by 30 days. Costs around BRL 350.
+- **DTV (Destination Thailand Visa):** The best option for remote workers. 5-year multi-entry, 180+180 days. Apply at the Embassy in Brasilia.
+- **Education Visa:** Popular among Brazilians — Thai language or Muay Thai schools qualify. Cheapest long-term option.
+
+**Banking tip:** Wise works great from Brazil and supports BRL transfers. Nubank's international card is also a solid backup. ATM fees are 220 THB per withdrawal on foreign cards — withdraw the maximum (20,000 THB) each time to minimize fees.
+
+**Community:** There's a growing Brazilian nomad community in Chiang Mai and Bangkok. Look for "Brasileiros na Tailandia" groups on Facebook.
+
+See **Chapter 1: Visa Complete Guide** for details on all visa types.
+
+Would you like to know about cost of living compared to Brazil, or tips for the DTV application?`,
+    chapterRef: '1',
+  },
+  {
+    keywords: ['japanese', 'japan', 'nihon', 'nihonjin'],
+    reply: `**Thailand Visa Info for Japanese Nationals**
+
+Japan has one of the most generous visa exemption deals with Thailand — you get **30 days free** on arrival (no visa needed).
+
+For longer stays:
+
+- **DTV (Destination Thailand Visa):** Apply at the Royal Thai Embassy in Tokyo or Consulates in Osaka/Fukuoka. 5-year multi-entry, 180+180 days per entry.
+- **LTR Visa:** If you earn over JPY 12,000,000/year (~$80K), this is the premium option with a work permit and tax exemption.
+- **Thailand Elite:** Popular with Japanese nationals — no income proof needed, just the membership fee starting at 650K THB (~JPY 2,700,000).
+
+**Tax note:** Japan and Thailand have a DTA. Japan taxes worldwide income regardless of residency, so consult a Japanese tax advisor before relocating. You may need to file a "moving-out" tax return (junin-zei).
+
+**Community:** There's a large Japanese community in Bangkok, especially in the Sukhumvit area (Phrom Phong to Thonglor). Many Japanese restaurants, supermarkets, and even a Japanese hospital (Samitivej Japanese Language Center).
+
+Full visa breakdown in **Chapter 1: Visa Complete Guide**.
+
+Interested in the best neighborhoods for Japanese nationals, or tax strategies for Japan-Thailand?`,
+    chapterRef: '1',
+  },
+  {
+    keywords: ['american', 'usa', 'us citizen', 'united states', 'us passport'],
+    reply: `**Thailand Visa Info for US Citizens**
+
+US passport holders get **60 days visa-exempt** on arrival by air (extended from 30 in 2024). You can extend for 30 more days (1,900 THB) at immigration.
+
+Best options for longer stays:
+
+- **DTV:** Apply at Thai Embassy in DC or Consulates in LA/Chicago/NYC. 5-year multi-entry, 180+180 days. Best for most nomads.
+- **LTR:** If earning $80K+/year — 10-year visa with work permit and Thai tax exemption on foreign income.
+- **Thailand Elite:** No income requirement, starts at $18,500.
+
+**Tax essentials for Americans:**
+- You MUST file US taxes regardless of where you live (worldwide taxation).
+- **FEIE** (Foreign Earned Income Exclusion) lets you exclude up to $130,000 of foreign earned income.
+- **FBAR** (FinCEN 114): Required if your foreign accounts exceed $10,000 at any point during the year.
+- The US-Thailand DTA prevents double taxation, but you still need to file.
+- Self-employment tax still applies unless you set up a foreign corp.
+
+**Banking:** Charles Schwab debit card is the #1 pick (reimburses all ATM fees worldwide). Pair with Wise for transfers.
+
+See **Chapter 1: Visa Complete Guide** and **Chapter 8: Tax Implications** for the full breakdown.
+
+Want to know about the best US-friendly banking setup for Thailand?`,
+    chapterRef: '1',
+  },
+  {
+    keywords: ['british', 'uk', 'england', 'united kingdom', 'uk passport'],
+    reply: `**Thailand Visa Info for UK Citizens**
+
+UK passport holders get **60 days visa-exempt** on arrival by air, extendable by 30 days (1,900 THB).
+
+Long-stay options:
+
+- **DTV:** Apply at Thai Embassy in London or consulate in Birmingham/Hull. 5-year multi-entry, 180+180 days. The go-to for UK nomads.
+- **LTR:** For those earning GBP 63,000+/year. 10-year visa with work permit.
+- **Thailand Elite:** No income requirement. Starts at 650K THB (~GBP 15,000).
+
+**Tax note:** If you leave the UK, you need to complete the **HMRC P85** form and may need to pass the **Statutory Residence Test (SRT)** to prove non-residency. The UK-Thailand DTA covers most scenarios. Unlike the US, the UK does NOT tax worldwide income of non-residents.
+
+**Banking:** Wise and Revolut both work brilliantly from the UK. Starling Bank also has no foreign transaction fees. Skip the high-street banks for travel.
+
+Full details in **Chapter 1: Visa Complete Guide** and **Chapter 8: Tax Implications**.
+
+Would you like cost of living comparisons, or help choosing between the DTV and Elite visa?`,
+    chapterRef: '1',
+  },
+
+  // --- Budget-specific questions ---
+  {
+    keywords: ['$500', '500 dollar', '500 usd', '500 per month', '500/month', '500 a month'],
+    reply: `**Can You Live in Thailand on $500/Month?**
+
+Honestly? It's tight but technically possible in Chiang Mai — but I wouldn't recommend it as a target budget. Here's what $500/month looks like:
+
+- **Rent:** $143-200 (basic studio in Old City or Santitham, fan-only, no pool)
+- **Food:** $115-143 (street food and market cooking only, 2-3 meals/day)
+- **Transport:** $29-43 (occasional songthaew, mostly walking/cycling)
+- **SIM:** $17 (AIS basic plan)
+- **Coworking:** $0 (work from cafes or free spots like CAMP)
+- **Remaining:** $100-196 for everything else
+
+**Where it works:** Chiang Mai Old City, Santitham, or small towns like Pai.
+**Where it won't work:** Bangkok, Phuket, or any island.
+
+**My honest take:** Budget $800-1,000/month for a comfortable experience. At $500 you'll survive but won't enjoy the nomad lifestyle. Your first month will cost 1.5-2x due to deposits and setup.
+
+See **Chapter 2: Cost of Living Breakdown** for detailed city-by-city budgets.
+
+Want me to suggest the most affordable setup in Chiang Mai?`,
+    chapterRef: '2',
+  },
+  {
+    keywords: ['$1000', '1000 dollar', '1000 usd', '1000 per month', '1000/month', '1000 a month', '$1,000', '1k per month', '1k/month'],
+    reply: `**Living in Thailand on $1,000/Month**
+
+$1,000/month is the sweet spot for comfortable living in Chiang Mai and a decent budget in Bangkok. Here's what it buys:
+
+**Chiang Mai ($1,000/mo):**
+- Rent: $286-400 (nice studio in Nimman with pool/gym, or 1-bed in Santitham)
+- Food: $171-229 (mix of street food + restaurants + occasional Western meals)
+- Coworking: $86-100 (monthly pass at Punspace or CAMP)
+- Transport: $43-57 (motorbike rental or Grab)
+- SIM + internet: $23-35
+- Fun/social: $100-143 (coffee, bars, day trips, Muay Thai)
+- Buffer: $50-100
+
+**Bangkok ($1,000/mo):**
+- Tight but doable in On Nut or outer BTS areas
+- Studio: $343-457 (decent but not luxury)
+- Less room for entertainment
+
+**Pro tip:** If you find a monthly condo deal through Facebook groups instead of Airbnb, you'll save 30-50% on housing.
+
+See **Chapter 2: Cost of Living Breakdown** for the full budget tables.
+
+Want a breakdown for a specific city, or tips on finding cheap housing?`,
+    chapterRef: '2',
+  },
+  {
+    keywords: ['$2000', '2000 dollar', '2000 usd', '2000 per month', '2000/month', '2000 a month', '$2,000', '2k per month', '2k/month'],
+    reply: `**Living in Thailand on $2,000/Month**
+
+At $2,000/month, you're living very comfortably anywhere in Thailand. This is the "comfortable to premium" tier.
+
+**What $2,000/mo gets you:**
+- **Housing:** Modern 1-bed condo with pool, gym, co-working area in a prime area ($571-857)
+- **Food:** Mix of street food, restaurants, and Western dining without counting pennies ($286-429)
+- **Coworking:** Premium space with fast WiFi ($100-186)
+- **Transport:** Grab whenever you want + occasional trips ($86-143)
+- **Health:** Gym membership + occasional massage ($57-114)
+- **Social:** Regular dinners out, bars, weekend trips ($200-286)
+- **Buffer:** $200-400 for savings or travel
+
+**City comparison at this budget:**
+- **Chiang Mai:** You're living like royalty. Premium condo, daily restaurant meals, weekend trips.
+- **Bangkok:** Very comfortable. Nice condo in Ari/Ekkamai, eating well, active social life.
+- **Phuket:** Comfortable. Nice place in Rawai, motorbike, beach lifestyle.
+- **Islands:** Comfortable. Beachfront bungalow or nice villa, diving, yoga.
+
+Most nomads earning $3K+ find that $2K covers everything and they bank the rest.
+
+Full city breakdowns in **Chapter 2: Cost of Living Breakdown**.
+
+Would you like neighborhood recommendations for your budget, or tips on maximizing value?`,
+    chapterRef: '2',
+  },
+  {
+    keywords: ['$3000', '3000 dollar', '3000 usd', '3000 per month', '3000/month', '3000 a month', '$3,000', '3k per month', '3k/month', '$5000', '5000', '$5,000', '5k'],
+    reply: `**Living in Thailand on $3,000-5,000/Month**
+
+At this budget, Thailand becomes genuinely luxurious. You're in the premium tier everywhere.
+
+**$3,000/mo lifestyle:**
+- 2-bed condo or serviced apartment in Bangkok Thonglor/Ari ($857-1,143)
+- Eat at nice restaurants daily without thinking about it ($429-571)
+- Premium coworking or private office ($143-286)
+- Grab everywhere, occasional domestic flights ($143-200)
+- Full gym + weekly massage + Muay Thai ($114-171)
+- Weekend trips to islands, shopping, entertainment ($286-429)
+
+**$5,000/mo lifestyle:**
+- Luxury penthouse or pool villa ($1,429-2,000)
+- Fine dining, international cuisine ($571-857)
+- Personal trainer, premium spa treatments
+- Domestic travel every weekend if you want
+- Honestly, you'd struggle to spend $5K/month in Thailand unless you're deliberately living large
+
+**Perspective:** $3,000/month in Thailand buys a lifestyle equivalent to $8,000-12,000 in a US/European city. $5,000/month is equivalent to $15,000-20,000 back home.
+
+**At this level, consider the LTR visa** — if you earn $80K+/year, it gives you a 10-year visa with Thai tax exemption on foreign income.
+
+See **Chapter 2: Cost of Living** and **Chapter 1: Visa Complete Guide** for details.
+
+Want to know about the best premium neighborhoods, or the LTR visa application?`,
+    chapterRef: '2',
+  },
+
+  // --- Solo female traveler safety ---
+  {
+    keywords: ['solo female', 'woman travel', 'women travel', 'female nomad', 'girl travel', 'safe for women', 'woman alone', 'solo woman'],
+    reply: `**Solo Female Traveler Safety in Thailand**
+
+Thailand is one of the most popular destinations for solo female travelers in the world, and for good reason — it's generally very safe. That said, here's what you need to know:
+
+**The good news:**
+- Violent crime against foreign women is very rare
+- Thai culture is generally respectful toward women
+- Huge solo female traveler community (you'll meet many others)
+- Well-developed tourist infrastructure
+- Affordable private transport (Grab) so you rarely need to walk alone at night
+
+**Smart precautions:**
+- Use **Grab** (not tuk-tuks/taxis) at night — GPS-tracked, driver info visible
+- Avoid Full Moon Party solo or stick with a group you trust — drink spiking happens
+- Be cautious in bar areas (Khao San Road, Walking Street Pattaya, Bangla Road Phuket)
+- Always have your own transport plan home
+- Share your location with someone back home (Google Maps location sharing)
+- Trust your instincts — Thai people are overwhelmingly kind and helpful
+
+**Best areas for solo female nomads:**
+- Chiang Mai Nimman (safest overall, huge female nomad community)
+- Bangkok Ari or Ekkamai (calm, safe, walkable)
+- Koh Phangan Sri Thanu (yoga/wellness crowd, very supportive)
+
+**Emergency:** Tourist Police **1155** (English, 24/7). Save this number.
+
+Full safety guide in **Chapter 9: Safety & Practical Tips**.
+
+Would you like neighborhood recommendations or tips on connecting with other female nomads?`,
+    chapterRef: '9',
+  },
+
+  // --- Banking for non-US nomads ---
+  {
+    keywords: ['revolut', 'nubank', 'n26', 'non-us bank', 'european bank', 'eu bank', 'international bank'],
+    reply: `**Banking in Thailand for Non-US Nomads**
+
+Different home country = different optimal setup. Here's what works best:
+
+**EU/UK Nomads:**
+- **Wise** (must-have): Best exchange rates worldwide. GBP/EUR to THB at mid-market rate. Fees: 0.43-0.6%.
+- **Revolut** (excellent backup): Free ATM withdrawals up to EUR 200/month (Metal: EUR 800). Good FX rates.
+- **N26** (decent): No foreign transaction fees on Metal plan. Limited free ATM withdrawals abroad.
+- Pair Revolut + Wise for best coverage.
+
+**Brazilian Nomads:**
+- **Wise** (primary): Supports BRL transfers with good rates.
+- **Nubank** (backup): International card works at Thai ATMs. No annual fee.
+- **C6 Global** (USD card): Pre-load USD to avoid BRL-THB double conversion.
+
+**Australian Nomads:**
+- **Wise** (primary): AUD transfers with best rates.
+- **ING Orange** (backup): Reimburses international ATM fees (check current terms).
+- **Up Bank** (alternative): No international fees on purchases.
+
+**Universal tips:**
+- ALL foreign ATM cards pay 220 THB ($6) per withdrawal in Thailand — no exceptions
+- AEON ATMs charge only 150 THB (lowest available)
+- **Always decline DCC** ("charge in your home currency") — it costs you 3-5% extra
+- Withdraw the maximum (20,000 THB) each time to minimize per-transaction fees
+- Carry 2+ cards from different banks in case one gets blocked
+
+See **Chapter 6: Banking & Money** for the complete guide.
+
+Need advice on opening a Thai bank account, or tips for a specific country's banking setup?`,
+    chapterRef: '6',
+  },
+
+  // --- Time zone questions ---
+  {
+    keywords: ['time zone', 'timezone', 'time difference', 'gmt', 'utc', 'overlap', 'working hours', 'client time', 'remote meeting'],
+    reply: `**Thailand Time Zone for Remote Workers**
+
+Thailand is **UTC+7 (ICT — Indochina Time)** year-round. No daylight saving time, so it never changes.
+
+**Time differences from Thailand:**
+
+| Your Location | Difference | Overlap Window |
+|---------------|-----------|----------------|
+| US West Coast (PST) | +15 hours | 6-8 AM your time = 9-11 PM Thailand |
+| US East Coast (EST) | +12 hours | 8-10 AM your time = 8-10 PM Thailand |
+| UK (GMT/BST) | +7/+6 hours | 2-6 PM your time = 9 PM-1 AM Thailand |
+| Central Europe (CET) | +6/+5 hours | 2-6 PM your time = 8 PM-12 AM Thailand |
+| Australia East (AEST) | -3/-4 hours | Easy overlap, nearly same workday |
+| Japan/Korea (JST/KST) | -2 hours | Almost identical workday |
+| India (IST) | +1.5 hours | Nearly identical workday |
+
+**Strategies for US clients:**
+- Work late Thailand evenings (7-11 PM) for morning US overlap
+- "Split shift": Work 9 AM-1 PM Thailand (your deep work), then 8-11 PM for US meetings
+- Many nomads love this — mornings free for gym/explore, work in the afternoon and evening
+
+**Strategies for EU clients:**
+- Overlap is 2-6 PM your client's time = 8 PM-12 AM Thailand
+- Very manageable — work a slightly later day
+
+**Pro tip:** If you work with Asia-Pacific clients (Japan, Korea, Australia, India), Thailand is in the perfect time zone with almost no adjustment needed.
+
+See **Chapter 9: Safety & Practical Tips** for more remote work tips.
+
+Want to know about coworking spaces with late-night access for US-overlap hours?`,
+    chapterRef: '9',
+  },
+
+  // --- Coworking by city ---
+  {
+    keywords: ['coworking bangkok', 'workspace bangkok', 'work bangkok', 'bangkok cowork'],
+    reply: `**Best Coworking Spaces in Bangkok**
+
+Bangkok has the widest selection of coworking in Thailand. Here are the top picks:
+
+**Free / Ultra-Budget:**
+- **AIS Design Centre** (Emquartier, BTS Phrom Phong) — Completely FREE. 200+ Mbps WiFi. Open 10 AM-9 PM. The catch: no reservations, gets busy after 2 PM.
+
+**Mid-Range (3,000-5,000 THB/mo):**
+- **True Digital Park** (Punnawithi) — 4,500 THB/mo. 200-500 Mbps. Tech startup vibe. Meeting rooms, events, massive food court downstairs.
+- **WeWork** (multiple locations) — 5,600 THB/mo hot desk. 24/7 access. Free coffee/beer. Global community.
+
+**Premium (5,000+ THB/mo):**
+- **The Hive Thonglor** — 6,500 THB/mo. Rooftop terrace, great community events, strong WiFi.
+- **The Great Room** (Gaysorn) — Day pass 750 THB. Luxury design, business crowd.
+
+**Best cafe-offices (free with purchase):**
+- **OTTO Bangkok** — 910 Mbps WiFi (not a typo). Best internet in any cafe in Thailand.
+- **Paper Plane Project** — 40th floor views. Free entry, buy a drink.
+
+**Day passes:** 200-750 THB. Try 2-3 before committing monthly.
+
+Full list with WiFi speeds, prices, and locations in **Chapter 4: Top Coworking Spaces**.
+
+Want recommendations based on your area or working style?`,
+    chapterRef: '4',
+  },
+  {
+    keywords: ['coworking chiang mai', 'workspace chiang mai', 'work chiang mai', 'chiang mai cowork'],
+    reply: `**Best Coworking Spaces in Chiang Mai**
+
+Chiang Mai is coworking paradise — more nomad-focused spaces per capita than anywhere else.
+
+**Best Overall:**
+- **Punspace** (Nimman + Tha Phae) — 3,500 THB/mo. The gold standard. Great community, reliable WiFi (80-150 Mbps), meeting rooms, kitchen. Most nomads end up here.
+
+**Best Value:**
+- **Starwork** — 2,990 THB/mo. Cheapest 24/7 space in the city. Basic but functional. Good for night owls.
+- **CAMP by Maya** — 3,000 THB/mo. Inside Maya Mall on Nimman. Open until midnight. Great if you like mall food court access.
+
+**Fastest Internet:**
+- **Yellow** — 4,000 THB/mo. 150-300 Mbps consistently. Modern design, quiet zones. Best for video calls.
+
+**Best Community:**
+- **Punspace Nimman** — Weekly events, Friday drinks, diverse international crowd.
+- **Hub53** — Smaller, tight-knit community. Good for making close friends.
+
+**Best Cafe-Offices:**
+- **Story 106** — 250+ Mbps. Beautiful space. Free with coffee purchase.
+- **Ristr8to** — Award-winning coffee + decent WiFi. Popular nomad hangout.
+
+**Warning:** During burning season (Feb-Apr), look for spaces with good air filtration or stay in your condo.
+
+Full guide in **Chapter 4: Top Coworking Spaces**.
+
+Want to know about coworking on the islands, or tips for networking at these spaces?`,
+    chapterRef: '4',
+  },
+  {
+    keywords: ['coworking phuket', 'workspace phuket', 'work phuket', 'phuket cowork', 'coworking island', 'workspace island', 'koh phangan cowork', 'koh lanta cowork'],
+    reply: `**Coworking on Phuket & the Islands**
+
+Beach + productivity is absolutely possible — here are the best spots:
+
+**Phuket:**
+- **Garage Society** (Rawai) — 5,000 THB/mo. Best in Phuket. Fast WiFi, AC, good community. Day pass 350 THB.
+- **SEA HQ** (Chalong) — 3,500 THB/mo. 24/7 access, standing desks, quiet.
+- Most Phuket nomads work from their condo or cafes — coworking scene is smaller than BKK/CM.
+
+**Koh Phangan:**
+- **Beachub** — 6,300 THB/mo. THE legendary beach coworking — literally work with your feet in the sand. Reliable WiFi, power, and they even have standing desks on the beach. Day pass 400 THB.
+- **DOI Koh Phangan** — 4,500 THB/mo. Air-conditioned, fast internet, more traditional setup.
+- Best during Nov-Apr (dry season). Rainy season can be rough on the islands.
+
+**Koh Lanta:**
+- **KoHub** — 5,500 THB/mo. Beautiful setting, strong community, organic cafe. Only open Nov-Apr (closes for monsoon season).
+
+**Koh Samui:**
+- Options are limited. Most nomads work from villa/condo or hotel lobbies.
+- **HUBBA Samui** — Coworking + coliving near Bophut.
+
+**Reality check:** Island coworking is charming but WiFi is less reliable than mainland. Always have a mobile hotspot backup (AIS 5G is solid on Phuket and Samui).
+
+Full details in **Chapter 4: Top Coworking Spaces**.
+
+Curious about the best neighborhoods on these islands, or internet reliability?`,
+    chapterRef: '4',
+  },
+
+  // --- Phuket specific ---
+  {
+    keywords: ['phuket', 'patong', 'rawai', 'kata', 'karon'],
+    reply: `**Phuket — Beach Nomad Base**
+
+Thailand's largest island with improving nomad infrastructure.
+
+- **Budget:** $800-1,200/mo | **Comfortable:** $1,429-2,429/mo | **Premium:** $3,000+
+- **Best area for nomads:** Rawai (south) — 20-40% cheaper than tourist zones, real community, good cafes
+- **Beach area:** Kata/Karon (quieter, more affordable than Patong)
+- **AVOID:** Patong (tourist trap, loud, overpriced, seedy at night)
+- **Transport:** Motorbike essential (no public transport). Rental: 3,000-4,000 THB/mo.
+- **Coworking:** Garage Society (Rawai), SEA HQ (Chalong)
+- **Internet:** 5G coverage is good. Home fiber available.
+- **Best months:** Nov-Apr (dry season). May-Oct has heavy rain.
+
+**Phuket pros:** Beach lifestyle, international airport (direct flights from many countries), growing nomad scene, great seafood.
+
+**Phuket cons:** More expensive than Chiang Mai, motorbike-dependent, fewer coworking options, can feel isolated without a scooter.
+
+See **Chapter 3: Best Neighborhoods** and **Chapter 2: Cost of Living** for details.
+
+Want to compare Phuket vs Chiang Mai, or know about island-hopping from Phuket?`,
+    chapterRef: '3',
+  },
+
+  // --- Pattaya specific ---
+  {
+    keywords: ['pattaya', 'jomtien', 'pratumnak'],
+    reply: `**Pattaya — Underrated Nomad Spot**
+
+Pattaya has shed much of its old reputation and become a surprisingly practical nomad base.
+
+- **Budget:** $514-914/mo | **Comfortable:** $1,143-2,000/mo | **Premium:** $2,429+
+- **Best area:** Jomtien (south) — best value beachfront in Thailand, quiet, good cafes
+- **Balanced:** Pratumnak Hill — between Pattaya and Jomtien, upscale but not overpriced
+- **AVOID:** Walking Street area (nightlife zone, not for living)
+- **Advantages:** Only 90 min from Bangkok, good infrastructure, cheap condos, beach access
+- **Coworking:** Still developing. Most nomads work from condos or cafes.
+- **Internet:** Excellent. 5G coverage, fiber available in most condos.
+- **Best months:** Nov-Feb (cool, dry). Mar-May is very hot.
+
+**Why consider Pattaya?**
+- Bangkok-level infrastructure at Chiang Mai prices
+- Easy access to Bangkok (bus/van every 30 min, 120-150 THB)
+- U-Tapao airport expanding with more direct flights
+- Good hospitals (Bangkok Hospital Pattaya)
+
+See **Chapter 3: Best Neighborhoods** and **Chapter 2: Cost of Living**.
+
+Want to compare Pattaya with other Thai cities, or know about the best condos in Jomtien?`,
+    chapterRef: '3',
+  },
+
+  // --- Island-specific ---
+  {
+    keywords: ['koh samui', 'samui', 'koh phangan', 'phangan', 'koh lanta', 'koh tao', 'island life', 'island living'],
+    reply: `**Island Life in Thailand**
+
+The islands offer a unique nomad experience — slower pace, beach lifestyle, strong wellness communities.
+
+**Koh Samui:**
+- Most developed island. Airport with direct flights.
+- Budget: $571-1,000/mo | Comfortable: $1,286-2,143/mo
+- Best area: Bophut (Fisherman's Village) — cafes, restaurants, calm beach
+- Good hospitals (Bangkok Hospital Samui, Thai International)
+- Family-friendly, more "settled" vibe
+
+**Koh Phangan:**
+- Famous for Full Moon Party BUT most of the island is peaceful yoga/wellness
+- Best area: Sri Thanu — yoga studios, plant-based cafes, nomad community
+- Coworking: Beachub (legendary beach workspace)
+- Budget: $571-857/mo (cheaper than Samui)
+- Ferry from Samui: 30 min
+
+**Koh Lanta:**
+- Most laid-back island. No party scene.
+- KoHub coworking (Nov-Apr only)
+- Very seasonal — many places close May-Oct
+- Budget: $514-857/mo
+
+**Koh Tao:**
+- Tiny but famous for diving (cheapest PADI certification in the world)
+- Limited nomad infrastructure, more of a 1-2 week stop
+- PADI Open Water: 9,000-12,000 THB
+
+**Island reality check:** WiFi is less reliable (always have AIS 5G backup), fewer coworking options, limited healthcare, everything costs 10-20% more due to transport. Best for nomads with flexible schedules.
+
+See **Chapter 3: Best Neighborhoods** for island guides.
+
+Want details on a specific island, or how to plan an island-hopping route?`,
+    chapterRef: '3',
+  },
+
+  // --- Accommodation-specific ---
+  {
+    keywords: ['apartment', 'condo', 'accommodation', 'housing', 'airbnb', 'stay', 'lease', 'deposit', 'find a place', 'where to stay'],
+    reply: `**Finding Accommodation in Thailand**
+
+The #1 rule: **Never book long-term before arriving.** Book 3-7 nights on Agoda/Booking, then search in person.
+
+**How to find a monthly rental:**
+1. **Facebook groups** (best deals): "Chiang Mai Rentals", "Bangkok Condos for Rent", etc.
+2. **Walk-in visits:** Explore your target neighborhood and look for "For Rent" signs on condo buildings
+3. **Agoda Monthly** (formerly Agoda Homes): Online monthly rates, sometimes competitive
+4. **Agents:** DDProperty, Hipflat, PropertyGuru — more options but usually higher prices
+
+**Price ranges (monthly):**
+| Type | Chiang Mai | Bangkok | Phuket |
+|------|-----------|---------|--------|
+| Basic studio | 5,000-8,000 THB | 8,000-15,000 THB | 8,000-12,000 THB |
+| Nice 1-bed (pool/gym) | 15,000-25,000 THB | 18,000-35,000 THB | 15,000-30,000 THB |
+| Premium 1-bed | 25,000-40,000 THB | 35,000-60,000 THB | 30,000-50,000 THB |
+
+**Key tips:**
+- Standard deposit: 2 months rent (negotiate down to 1 for longer stays)
+- Always take photos of everything on move-in day (for deposit return)
+- Electricity is usually metered separately (6-8 THB/unit — AC is the biggest cost)
+- Airbnb is 30-50% more expensive than direct monthly rentals
+- Negotiate! Prices are often flexible, especially for 3+ month stays
+
+See **Chapter 3: Best Neighborhoods** for area-specific recommendations.
+
+Want help finding accommodation in a specific city or neighborhood?`,
+    chapterRef: '3',
+  },
+
+  // --- App/tool recommendations ---
+  {
+    keywords: ['app', 'apps', 'download', 'essential app', 'must have app', 'phone setup', 'grab app', 'line app'],
+    reply: `**Essential Apps for Thailand**
+
+Download these before you land:
+
+**Must-Have (install now):**
+- **LINE** — Thailand's #1 messaging app. Everyone uses it, not WhatsApp. Landlords, shops, even government offices use LINE.
+- **Grab** — Uber equivalent. Rides, food delivery, payments. Works across SE Asia.
+- **Google Maps** — Best navigation. Download offline maps for your area.
+- **Google Translate** — Camera translate for Thai menus/signs. Download Thai for offline use.
+
+**Transport & Travel:**
+- **Bolt** — Cheaper alternative to Grab for rides in Bangkok.
+- **12Go** — Book trains, buses, ferries between cities.
+- **Agoda** — Best hotel/condo deals in Asia. Often cheaper than Booking.com.
+
+**Food & Delivery:**
+- **GrabFood** — Largest delivery network.
+- **LINE MAN** — Best for local restaurants that aren't on GrabFood.
+- **Robinhood** — No delivery fees (Thai platform).
+
+**Money:**
+- **Wise** — Check exchange rates, manage transfers.
+- **XE Currency** — Quick THB conversion.
+- **SuperRichTH** — Best exchange rates when you need cash.
+
+**Health & Safety:**
+- **IQAir** — Air quality monitoring (critical for Chiang Mai burning season).
+- **MySOS** — Emergency contacts and medical info.
+
+**Bonus:** Set your phone to eSIM before arriving — one less thing at the airport.
+
+See **Chapter 5: Internet & SIM Cards** and **Chapter 9: Safety & Practical Tips** for more.
+
+Need help setting up any specific app, or tips for your first day in Thailand?`,
+    chapterRef: '9',
+  },
 ];
 
 function getMockResponse(message: string): { reply: string; chapterRef?: string } {
@@ -341,18 +926,24 @@ function getMockResponse(message: string): { reply: string; chapterRef?: string 
   }
 
   return {
-    reply: `Great question! I'd love to help you with that. Our Thailand guide covers everything from visas and costs to neighborhoods, coworking, healthcare, and community life.
+    reply: `Hey! I'm your NomadReady AI assistant, and I know Thailand inside out. I can help with pretty much anything a digital nomad needs to know — from visa strategies to the best $3 pad kra pao in Chiang Mai.
 
-Here are some things I can help with:
-- **Visas** — Which type is best for you (DTV, LTR, Elite, Tourist)
-- **Cost of living** — Detailed budgets for Bangkok, Chiang Mai, Phuket, Pattaya
-- **Neighborhoods** — Where to live based on your lifestyle and budget
-- **Coworking** — Best spaces with prices and WiFi speeds
-- **Healthcare** — Hospitals, insurance, pharmacy info
-- **Safety** — Scams to avoid, critical laws, emergency contacts
-- **Community** — How to meet people and build your network
+Here's what I'm great at:
 
-Try asking me something specific like "What visa should I get?" or "How much does Chiang Mai cost per month?"`,
+- **Visas** — DTV, LTR, Elite, Tourist, Education — which one fits your situation
+- **Budget planning** — Realistic monthly costs for Bangkok, Chiang Mai, Phuket, Pattaya, and the islands
+- **Where to live** — Neighborhoods ranked by vibe, price, and nomad-friendliness
+- **Coworking** — Spaces with actual WiFi speeds, prices, and honest reviews
+- **Banking** — How to set up Wise, avoid ATM fee traps, and handle money transfers
+- **Healthcare** — World-class hospitals at 90% less than US prices
+- **Safety** — Critical laws that could land you in prison (vaping, lese-majeste), scams to dodge
+- **Community** — How to go from knowing nobody to having a solid friend group in 2 weeks
+
+**Try asking me something specific**, like:
+- "What visa should a German freelancer get?"
+- "Can I live in Chiang Mai on $1,000/month?"
+- "Is Thailand safe for solo female travelers?"
+- "What's the time zone overlap with US clients?"`,
   };
 }
 

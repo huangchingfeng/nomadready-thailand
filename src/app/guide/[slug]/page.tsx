@@ -8,13 +8,13 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  const chapters = getAllChapters();
+  const chapters = getAllChapters('thailand');
   return chapters.map((ch) => ({ slug: ch.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
-  const chapter = getChapterBySlug(slug);
+  const chapter = getChapterBySlug('thailand', slug);
   if (!chapter) return { title: 'Chapter Not Found' };
 
   const cleanTitle = chapter.title
@@ -29,14 +29,14 @@ export async function generateMetadata({ params }: PageProps) {
 
 export default async function ChapterPage({ params }: PageProps) {
   const { slug } = await params;
-  const chapter = getChapterBySlug(slug);
+  const chapter = getChapterBySlug('thailand', slug);
 
   if (!chapter) {
     notFound();
   }
 
-  const allChapters = getAllChapters();
-  const { prev, next } = getAdjacentChapters(slug);
+  const allChapters = getAllChapters('thailand');
+  const { prev, next } = getAdjacentChapters('thailand', slug);
   const headings = extractHeadings(chapter.content);
 
   const sidebarChapters = allChapters.map((ch) => ({
@@ -49,7 +49,7 @@ export default async function ChapterPage({ params }: PageProps) {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <Sidebar chapters={sidebarChapters} activeSlug={slug} />
+      <Sidebar chapters={sidebarChapters} activeSlug={slug} country="thailand" />
 
       {/* Client-side reader (handles auth gating) */}
       <ChapterReader
@@ -64,6 +64,7 @@ export default async function ChapterPage({ params }: PageProps) {
         headings={headings}
         prev={prev ? { slug: prev.slug, title: prev.title } : null}
         next={next ? { slug: next.slug, title: next.title } : null}
+        country="thailand"
       />
     </div>
   );
