@@ -6,12 +6,14 @@
 
 ## The Core Rule: 183 Days
 
-| Days in Indonesia (per calendar year) | Tax Status | What's Taxed |
-|---------------------------------------|-----------|-------------|
+| Days in Indonesia (in any rolling 12-month period) | Tax Status | What's Taxed |
+|---------------------------------------------------|-----------|-------------|
 | **Under 183 days** | Non-resident | Only Indonesian-source income |
-| **183 days or more** | Tax resident | Worldwide income (with exceptions) |
+| **183 days or more** | Tax resident | Worldwide income |
 
 This is **the** number that matters. Track your days carefully.
+
+> 🔴 **Critical: It's NOT per calendar year.** Indonesia counts 183 days within **any rolling 12-month period**, not January-to-December. Example: if you arrive October 2025 and stay continuously until May 2026, you've exceeded 183 days even though you were in Indonesia less than 6 months in either calendar year. Don't assume crossing January 1st resets your counter.
 
 ---
 
@@ -20,7 +22,7 @@ This is **the** number that matters. Track your days carefully.
 The E33G Remote Worker KITAS has a unique tax position:
 
 - **Under 183 days:** Your foreign-sourced income is **not taxable** in Indonesia. This is the intended sweet spot — work remotely, pay no Indonesian tax on foreign earnings.
-- **Over 183 days:** You become a tax resident. Foreign-sourced income **may** become taxable when remitted to Indonesia.
+- **Over 183 days:** You become a tax resident. Your **worldwide income becomes taxable** — not just what you remit to Indonesia (see below).
 - **Key planning strategy:** Many E33G holders do 5 months in Bali → rotate to another country → return. This keeps them under the 183-day threshold.
 
 > 💡 **The E33G doesn't automatically exempt you from tax.** It's the day count that matters. The visa just makes your remote work legal — it doesn't change tax residency rules.
@@ -43,31 +45,48 @@ First 54,000,000 IDR (~$3,480) is tax-free (personal allowance).
 
 ---
 
-## The Remittance Question
+## Worldwide Income — Not Remittance-Based
 
-**For tax residents (183+ days):**
+**Important distinction:** Unlike Thailand (which taxes foreign income only when remitted), Indonesia uses a **worldwide income system**. If you're a tax resident (183+ days), **all your income is legally taxable** — regardless of whether you transfer it to Indonesia or keep it offshore.
 
-Indonesia taxes worldwide income. However, enforcement historically focused on locally-earned income. The system is now evolving:
+**The enforcement reality:**
+- The tax authority (DJP) historically focused on locally-earned income and large remittances
+- Enforcement of foreign-sourced income is increasing but still inconsistent
+- Keeping money offshore doesn't change your legal obligation — it just reduces visibility
+- DJP is increasingly sharing data with banks and immigration
 
-- **Income earned and spent abroad:** Technically taxable if you're a resident, but enforcement is difficult and currently minimal for foreign-sourced income that never enters Indonesia.
-- **Income remitted to Indonesia:** More likely to attract attention, especially through formal bank transfers.
-- **Income transferred via Wise/crypto:** The tax authority is increasingly aware of digital transfer methods. Don't assume they can't see it.
+> ⚠️ **Don't confuse enforcement gaps with legal exemptions.** "They probably won't catch it" is not a tax strategy. If you're a tax resident, your worldwide income is taxable. Period.
 
 **Practical reality for most nomads:**
-- If you stay under 183 days: no Indonesian tax issue
+- If you stay under 183 days (rolling 12 months): no Indonesian tax issue
 - If you stay over 183 days on an E33G: consult a local tax advisor immediately
 - If you're on a B211A and stay over 183 days: you're technically a tax resident even though your visa doesn't authorize work
 
 ---
 
+## The 4-Year Exemption (Omnibus Law)
+
+Qualifying foreign technical experts and skilled workers who become Indonesian tax residents may be eligible for a **4-year partial exemption**: during their first 4 years of Indonesian tax residency, they can elect to be taxed **only on Indonesian-source income**, not worldwide income.
+
+**Requirements:**
+- Must possess specialized skills or expertise
+- Must be employed or engaged by an Indonesian entity or have a KITAS
+- Must apply through proper channels
+
+**For digital nomads:** This provision was designed for corporate expats, not remote workers. However, E33G KITAS holders with specialized skills may potentially qualify. Consult a tax advisor to assess eligibility — if you qualify, this is a significant tax planning tool.
+
+---
+
 ## Double Taxation Agreements (DTA)
 
-Indonesia has DTAs with **60+ countries**, including:
+Indonesia has DTAs with **71 countries**, including:
 
 | Region | Countries |
 |--------|-----------|
 | **Europe** | UK, Germany, France, Netherlands, Spain, Italy, Sweden, Norway, Denmark, Finland, Belgium, Austria, Switzerland, Poland, Czech Republic, Hungary, Romania, Bulgaria, Luxembourg |
-| **Asia-Pacific** | Japan, South Korea, Taiwan, Singapore, Malaysia, Thailand, Australia, New Zealand, India, China, Hong Kong |
+| **Asia-Pacific** | Japan, South Korea, Taiwan*, Singapore, Malaysia, Thailand, Australia, New Zealand, India, China, Hong Kong |
+
+> *Taiwan's DTA with Indonesia is signed through unofficial representative offices (Indonesian Economic and Trade Office ↔ Taipei Economic and Trade Office), not as a formal state-to-state treaty. It functions similarly in practice but may require additional documentation to invoke.
 | **Americas** | USA, Canada, Mexico |
 | **Middle East** | UAE, Saudi Arabia, Qatar, Kuwait |
 
@@ -101,13 +120,13 @@ Indonesia has DTAs with **60+ countries**, including:
 ## Strategies
 
 ### 1. Stay Under 183 Days (Simplest)
-5 months in Bali → 1+ months elsewhere → return. Zero Indonesian tax on foreign income.
+5 months in Bali → 1+ months elsewhere → return. Zero Indonesian tax on foreign income. **Remember: this is a rolling 12-month count, not calendar year.** Track your entry/exit dates carefully.
 
 ### 2. Use the DTA
 If your home country has a DTA with Indonesia, pay tax at home and claim credits. This works well for high-tax home countries.
 
-### 3. Minimize Remittances
-In years you're a tax resident, keep money offshore. Use Wise/foreign cards for daily spending instead of transferring large sums to an Indonesian bank.
+### 3. Minimize Visibility (Not a Legal Strategy)
+Using Wise/foreign cards for daily spending instead of transferring large sums to an Indonesian bank reduces practical scrutiny — but does **not** reduce your legal tax obligation. Indonesia taxes worldwide income, not just remittances. This strategy buys time, not exemption.
 
 ### 4. Get an NPWP (Tax ID) Proactively
 If you're staying long-term, registering for an NPWP and filing returns (even with zero local income) shows good faith and may prevent issues if the tax authority ever comes knocking.
@@ -118,11 +137,11 @@ If you're staying long-term, registering for an NPWP and filing returns (even wi
 
 | Factor | Bali (Indonesia) | Thailand |
 |--------|-----------------|----------|
-| Tax residency trigger | 183 days | 180 days |
-| Foreign income taxed? | Yes (if resident + remitted) | Yes (if resident + remitted, since 2024) |
+| Tax residency trigger | 183 days (rolling 12 months) | 180 days (calendar year) |
+| Foreign income taxed? | Yes — worldwide income system (if resident) | Yes — remittance-based (if resident + remitted, since 2024) |
 | Digital nomad visa tax benefit | E33G: no benefit per se, just legal work status | DTV: no tax benefit, LTR: foreign income exempt |
 | Max tax rate | 35% | 35% |
-| DTA countries | 60+ | 60+ |
+| DTA countries | 71 | 61 |
 | Enforcement level (2026) | Increasing | Actively increasing |
 | Best strategy | Stay under 183 days | Stay under 180 days |
 
