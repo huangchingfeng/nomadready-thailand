@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import EmailSignupForm from '@/components/ui/EmailSignupForm';
 
 export default function HomePage() {
   return (
@@ -119,6 +120,28 @@ export default function HomePage() {
                 </span>
               </div>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Email capture */}
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+        <div className="rounded-3xl border border-cyan-500/20 bg-gradient-to-br from-cyan-500/10 via-[var(--bg-card)] to-emerald-500/10 p-8 md:p-10">
+          <div className="max-w-2xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400 mb-3">
+              Free lead magnet
+            </p>
+            <h2 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-3">
+              Get the Thailand vs Bali cheat sheet
+            </h2>
+            <p className="text-sm md:text-base text-[var(--text-secondary)] leading-relaxed mb-6">
+              A fast side-by-side comparison for visa reality, monthly budget, neighborhoods, Wi-Fi, and who each destination fits best.
+              We&apos;ll also send major guide updates and launch offers.
+            </p>
+            <EmailSignupForm source="homepage-cheat-sheet" />
+            <p className="mt-3 text-xs text-[var(--text-muted)]">
+              No spam. Just useful updates for remote workers choosing their next base.
+            </p>
           </div>
         </div>
       </section>
