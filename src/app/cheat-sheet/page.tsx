@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const sections = [
   {
@@ -32,6 +33,34 @@ export default function CheatSheetPage() {
   return (
     <div className="min-h-screen bg-[var(--bg-primary)] px-4 py-16">
       <div className="mx-auto max-w-5xl">
+        {/* Destination photos */}
+        <div className="grid grid-cols-2 gap-3 mb-10 rounded-2xl overflow-hidden">
+          <div className="relative h-48 md:h-64 overflow-hidden rounded-xl">
+            <Image
+              src="/images/photos/hero-thailand.jpg"
+              alt="Thailand — temples, street food, and vibrant city life"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/40 flex items-end p-4">
+              <span className="text-white font-bold text-lg">🇹🇭 Thailand</span>
+            </div>
+          </div>
+          <div className="relative h-48 md:h-64 overflow-hidden rounded-xl">
+            <Image
+              src="/images/photos/hero-bali.jpg"
+              alt="Bali — rice terraces, surf culture, and vibrant nomad scene"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/40 flex items-end p-4">
+              <span className="text-white font-bold text-lg">🇮🇩 Bali</span>
+            </div>
+          </div>
+        </div>
+
         <div className="mb-10 text-center">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400">Free cheat sheet</p>
           <h1 className="mb-4 text-3xl font-bold text-[var(--text-primary)] md:text-5xl">

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function PricingPage() {
@@ -133,8 +134,16 @@ export default function PricingPage() {
       </div>
 
       {/* Header */}
-      <section className="pt-20 pb-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative pt-20 pb-12 overflow-hidden">
+        <Image
+          src="/images/photos/hero-bali.jpg"
+          alt="Bali rice terraces — your next remote work destination"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-slate-950/80" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-100 mb-4">
             Simple, transparent pricing
           </h1>

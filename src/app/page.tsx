@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import EmailSignupForm from '@/components/ui/EmailSignupForm';
 
 export default function HomePage() {
@@ -6,8 +7,16 @@ export default function HomePage() {
     <div className="bg-[var(--bg-primary)] min-h-screen">
       {/* Hero */}
       <section className="relative overflow-hidden">
+        <Image
+          src="/images/photos/hero-thailand.jpg"
+          alt="Thailand landscape with temple and lush greenery"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/65" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16 text-center">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--bg-card)] border border-[var(--border)] text-sm text-[var(--text-secondary)] mb-8">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
@@ -34,6 +43,15 @@ export default function HomePage() {
               href="/thailand"
               className="group relative bg-[var(--bg-card)] border border-[var(--border)] hover:border-cyan-500/50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10"
             >
+              {/* Card image */}
+              <div className="relative h-48 overflow-hidden">
+                <Image
+                  src="/images/photos/hero-thailand.jpg"
+                  alt="Thailand temple and landscape"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
               {/* Color accent bar */}
               <div className="h-1.5 bg-gradient-to-r from-cyan-400 to-cyan-600" />
 
@@ -80,6 +98,15 @@ export default function HomePage() {
               href="/bali"
               className="group relative bg-[var(--bg-card)] border border-[var(--border)] hover:border-amber-500/50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10"
             >
+              {/* Card image */}
+              <div className="relative h-48 overflow-hidden">
+                <Image
+                  src="/images/photos/hero-bali.jpg"
+                  alt="Bali rice terraces with lush green scenery"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
               {/* Color accent bar */}
               <div className="h-1.5 bg-gradient-to-r from-amber-400 to-orange-500" />
 
@@ -158,20 +185,30 @@ export default function HomePage() {
 
           <div className="grid sm:grid-cols-3 gap-4">
             {[
-              { icon: '🛂', title: 'Visa Complete Guide', desc: 'Every visa option explained side-by-side with costs and requirements.' },
-              { icon: '💰', title: 'Cost of Living', desc: 'Exact monthly budgets from budget to premium, by city.' },
-              { icon: '🏘️', title: 'Best Neighborhoods', desc: 'Where to base yourself based on your vibe, budget, and work style.' },
-              { icon: '💻', title: 'Coworking Spaces', desc: 'Top spaces ranked by WiFi speed, price, and community.' },
-              { icon: '📱', title: 'Internet & SIM Cards', desc: 'Best mobile plans and how to stay connected everywhere.' },
-              { icon: '🏥', title: 'Healthcare & Safety', desc: 'Hospitals, insurance, emergency numbers, and scams to avoid.' },
+              { icon: '🛂', title: 'Visa Complete Guide', img: '/images/photos/passport.jpg', desc: 'Every visa option explained side-by-side with costs and requirements.' },
+              { icon: '💰', title: 'Cost of Living', img: '/images/photos/market.jpg', desc: 'Exact monthly budgets from budget to premium, by city.' },
+              { icon: '🏘️', title: 'Best Neighborhoods', img: '/images/photos/bali-street.jpg', desc: 'Where to base yourself based on your vibe, budget, and work style.' },
+              { icon: '💻', title: 'Coworking Spaces', img: '/images/photos/coworking.jpg', desc: 'Top spaces ranked by WiFi speed, price, and community.' },
+              { icon: '📱', title: 'Internet & SIM Cards', img: '/images/photos/remote-work.jpg', desc: 'Best mobile plans and how to stay connected everywhere.' },
+              { icon: '🏥', title: 'Healthcare & Safety', img: '/images/photos/healthcare.jpg', desc: 'Hospitals, insurance, emergency numbers, and scams to avoid.' },
             ].map((item) => (
               <div
                 key={item.title}
-                className="bg-[var(--bg-card)] border border-[var(--border)] rounded-xl p-5"
+                className="bg-[var(--bg-card)] border border-[var(--border)] rounded-xl overflow-hidden"
               >
-                <span className="text-2xl mb-3 block">{item.icon}</span>
-                <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-1.5">{item.title}</h3>
-                <p className="text-xs text-[var(--text-secondary)] leading-relaxed">{item.desc}</p>
+                <div className="relative h-28 overflow-hidden">
+                  <Image
+                    src={item.img}
+                    alt={item.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-5">
+                  <span className="text-2xl mb-3 block">{item.icon}</span>
+                  <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-1.5">{item.title}</h3>
+                  <p className="text-xs text-[var(--text-secondary)] leading-relaxed">{item.desc}</p>
+                </div>
               </div>
             ))}
           </div>
