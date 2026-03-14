@@ -139,7 +139,7 @@ Thailand is a medical tourism hub — world-class care at 80-95% less than US pr
 
 **Top hospitals:** Bumrungrad International (Bangkok, JCI), Chiang Mai Ram, Samitivej.
 
-**Insurance:** SafetyWing Essential (~$56/4 weeks) for emergencies. Self-insure routine care — it's that cheap.
+**Insurance:** [SafetyWing Essential](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador) (~$56/4 weeks) for emergencies. Self-insure routine care — it's that cheap.
 
 **Pharmacy:** Many Rx drugs available OTC. Antibiotics: $3-5.
 
@@ -209,7 +209,7 @@ Full guide in **Chapter 10: Community & Social Scene**.`,
     keywords: ['checklist', 'prepare', 'before', 'pack', 'first day', 'arrival', 'landing', 'week 1', 'getting started', 'action plan', 'what to do'],
     reply: `**30-Day Action Checklist Highlights**
 
-**Before departure:** Get visa, TDAC, insurance (SafetyWing), IDP for motorbike, download LINE/Grab/Google Maps, get Wise card, book first 3-7 nights only.
+**Before departure:** Get visa, TDAC, insurance ([SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador)), IDP for motorbike, download LINE/Grab/Google Maps, get Wise card, book first 3-7 nights only.
 
 **Week 1:** Buy AIS SIM at airport, explore neighborhood, try coworking day pass, attend first meetup.
 

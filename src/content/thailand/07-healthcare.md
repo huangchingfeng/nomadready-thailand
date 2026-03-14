@@ -65,7 +65,7 @@ Choosing the right insurance depends on how long you're staying, your budget, an
 
 | Provider | Monthly Cost | Medical Coverage | Best For |
 |----------|-------------|-----------------|----------|
-| **SafetyWing** | $45-68 | $250K | Short stays (1-3 months), easy sign-up |
+| **[SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador)** | $45-68 | $250K | Short stays (1-3 months), easy sign-up |
 | **Genki** | $35-55 | EUR 250K | Budget option, popular with EU nomads |
 | **World Nomads** | $60-120 | $100K-300K | Adventure travelers, activity coverage |
 | **Pacific Cross** | $100-200 | $500K+ | Long-term Thailand residents, Thai hospital networks |
