@@ -9,7 +9,7 @@
 ### Documents & Admin
 - [ ] Passport valid 18+ months (required for E33G; 6+ months for other visas)
 - [ ] International Driving Permit (IDP) — **get this before you leave.** You cannot get one in Bali. Required for legal motorbike riding and insurance claims.
-- [ ] Travel insurance active (SafetyWing, Genki, or your choice — see [Chapter 7](/guide/07-healthcare))
+- [ ] Travel insurance active ([SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador), Genki, or your choice — see [Chapter 7](/guide/07-healthcare))
 - [ ] Scan all documents (passport, IDP, insurance, bank cards) → store in cloud + email to yourself
 - [ ] E33G applicants: start the visa process 4-6 weeks before travel
 - [ ] Notify your bank you're traveling to Indonesia (avoid card blocks)

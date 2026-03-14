@@ -100,7 +100,7 @@ Compared to the US/EU, prices are very reasonable. But a serious accident or ill
 
 Why? The motorbike clause. In Bali, you **will** ride a motorbike. Most insurance companies require a valid motorcycle license from your home country for claims. Genki covers scooters ≤125cc (the standard rental scooter) without requiring a motorcycle-specific license — you just need a helmet. This single detail can save you thousands.
 
-**Alternative:** SafetyWing Essential ($56/4 weeks) if you have a proper motorcycle license or don't plan to ride.
+**Alternative:** [SafetyWing Essential](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador) ($56/4 weeks) if you have a proper motorcycle license or don't plan to ride.
 
 **Staying 1+ year:** Pacific Cross or Cigna Global for comprehensive coverage with direct hospital billing.
 

@@ -53,7 +53,7 @@
 
 ### Our Recommendation
 
-**Most nomads:** SafetyWing Essential for emergencies + pay out-of-pocket for routine care. GP visits at $15-45 and dental at $30-60 are cheap enough to self-insure.
+**Most nomads:** [SafetyWing Essential](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador) for emergencies + pay out-of-pocket for routine care. GP visits at $15-45 and dental at $30-60 are cheap enough to self-insure.
 
 **Staying 1+ years:** Consider Pacific Cross or AXA for comprehensive coverage.
 
@@ -74,7 +74,7 @@ Choosing the right insurance depends on how long you're staying, your budget, an
 
 #### Which One Should You Pick?
 
-**Staying under 3 months:** SafetyWing or Genki. Both are month-to-month (no annual commitment), easy to sign up online, and cover the basics. SafetyWing is the most popular among nomads for a reason — it's simple and works. Genki is slightly cheaper and well-known in the European nomad community.
+**Staying under 3 months:** [SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador) or Genki. Both are month-to-month (no annual commitment), easy to sign up online, and cover the basics. SafetyWing is the most popular among nomads for a reason — it's simple and works. Genki is slightly cheaper and well-known in the European nomad community.
 
 **Staying 3-12 months:** Pacific Cross Thailand-based plan. They have direct billing agreements with Thai hospitals, meaning you don't have to pay upfront and file for reimbursement. This matters when a hospital visit costs $5,000+ and you don't want to front the cash.
 

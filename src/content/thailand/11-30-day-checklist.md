@@ -23,7 +23,7 @@
   - [ ] COVID-19 and infectious diseases
   - [ ] Personal liability
   - [ ] Electronics and laptop coverage (optional but recommended)
-- [ ] Recommended providers: SafetyWing (nomad-specific), World Nomads, Insured Nomads, Genki
+- [ ] Recommended providers: [SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador) (nomad-specific), World Nomads, Insured Nomads, Genki
 - [ ] Save your insurance policy number and emergency contact in your phone AND email it to yourself
 
 ### Money
