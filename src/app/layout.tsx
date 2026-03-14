@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nomadready.com'),
+  metadataBase: new URL('https://website-zeta-vert-20.vercel.app'),
   title: 'NomadReady — Digital Nomad Country Guides',
   description:
     'Interactive digital nomad guides for Thailand, Bali, and more. AI-powered, always updated. Visa, cost of living, neighborhoods, coworking, banking — everything you need before you land.',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       'Interactive digital nomad guides for Thailand, Bali, and more. AI-powered tools, expert chapters, always updated.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://nomadready.com',
+    url: 'https://website-zeta-vert-20.vercel.app',
     siteName: 'NomadReady',
   },
   twitter: {
