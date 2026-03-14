@@ -83,7 +83,7 @@ If you have an E33G KITAS, you can open a full-service account with all features
 
 If you don't open a local account, a **Wise** or **Revolut** card is your best friend.
 
-### Wise (Recommended)
+### [Wise](https://wise.com/invite/dic/chingfengh7) (Recommended)
 - Mid-market exchange rate with transparent fees (typically 0.4-0.8%)
 - ATM withdrawals: free up to $100/month, then 1.75% fee
 - **Top up GoPay and OVO** directly from Wise — this is the killer feature
@@ -97,7 +97,7 @@ If you don't open a local account, a **Wise** or **Revolut** card is your best f
 
 ### Pro Tips
 - **Always choose IDR** when an ATM or terminal asks "charge in your home currency?" — declining Dynamic Currency Conversion (DCC) saves you 3-8%
-- **Wise → GoPay** is the cheapest way to get money into Indonesia's payment ecosystem without a local bank account
+- **[Wise](https://wise.com/invite/dic/chingfengh7) → GoPay** is the cheapest way to get money into Indonesia's payment ecosystem without a local bank account
 
 ---
 

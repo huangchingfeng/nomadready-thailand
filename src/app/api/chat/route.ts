@@ -116,7 +116,7 @@ Details in **Chapter 5: Internet & SIM Cards**.`,
     keywords: ['bank', 'banking', 'atm', 'money', 'wise', 'schwab', 'transfer', 'exchange', 'promptpay', 'currency', 'cash'],
     reply: `**Banking & Money in Thailand**
 
-**Must-have cards:** Wise (best exchange rate) + Charles Schwab debit (ATM fees reimbursed).
+**Must-have cards:** [Wise](https://wise.com/invite/dic/chingfengh7) (best exchange rate) + Charles Schwab debit (ATM fees reimbursed).
 
 **ATM fee:** 220 THB ($6) on ALL foreign cards. AEON ATMs charge only 150 THB. Always decline DCC.
 
@@ -209,7 +209,7 @@ Full guide in **Chapter 10: Community & Social Scene**.`,
     keywords: ['checklist', 'prepare', 'before', 'pack', 'first day', 'arrival', 'landing', 'week 1', 'getting started', 'action plan', 'what to do'],
     reply: `**30-Day Action Checklist Highlights**
 
-**Before departure:** Get visa, TDAC, insurance ([SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador)), IDP for motorbike, download LINE/Grab/Google Maps, get Wise card, book first 3-7 nights only.
+**Before departure:** Get visa, TDAC, insurance ([SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador)), IDP for motorbike, download LINE/Grab/Google Maps, get [Wise](https://wise.com/invite/dic/chingfengh7) card, book first 3-7 nights only.
 
 **Week 1:** Buy AIS SIM at airport, explore neighborhood, try coworking day pass, attend first meetup.
 

@@ -28,7 +28,7 @@ Every Thai ATM charges a **220-250 THB (~$6-7) surcharge** on foreign cards (var
 - No monthly fees, no minimum balance
 - The gold standard for international nomads
 
-**Good: Wise Debit Card**
+**Good: [Wise](https://wise.com/invite/dic/chingfengh7) Debit Card**
 - Free ATM withdrawals up to ~$100/month, then 2% fee
 - Mid-market exchange rate (0.43-0.6% conversion fee)
 - 220-250 THB ATM fee is NOT reimbursed
@@ -96,10 +96,10 @@ This is significantly cheaper than using a Brazilian credit card abroad.
 Even if you file a Saída Definitiva (see [Chapter 8: Tax Implications](/guide/08-tax-implications)), keep your CPF number active. You'll need it for tax filings, financial operations, and any future transactions with Brazilian institutions. Letting it lapse creates bureaucratic headaches that take months to resolve.
 
 **Asia-Pacific Nomads:**
-- **Wise card** — Works everywhere, best mid-market exchange rate, multi-currency account. The universal choice.
+- **[Wise](https://wise.com/invite/dic/chingfengh7) card** — Works everywhere, best mid-market exchange rate, multi-currency account. The universal choice.
 - **Revolut** — Strong alternative with competitive rates and free ATM tier.
 
-**The universal pick:** If you can't get Schwab, make Wise your primary card. Budget 220-250 THB ($6-7) per ATM withdrawal as a cost of nomad life. Withdraw larger amounts less frequently (10,000-20,000 THB per withdrawal) to minimize the per-transaction hit.
+**The universal pick:** If you can't get Schwab, make [Wise](https://wise.com/invite/dic/chingfengh7) your primary card. Budget 220-250 THB ($6-7) per ATM withdrawal as a cost of nomad life. Withdraw larger amounts less frequently (10,000-20,000 THB per withdrawal) to minimize the per-transaction hit.
 
 > ⚠️ **Always decline DCC.** When the ATM asks "charge in your home currency?" — select **NO / WITHOUT CONVERSION**. Accepting DCC costs you 3-5% extra.
 

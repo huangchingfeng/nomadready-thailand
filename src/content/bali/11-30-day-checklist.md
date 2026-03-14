@@ -22,7 +22,7 @@
 - [ ] Power bank (charged) — Bali has more power outages than you're used to
 
 ### Money
-- [ ] Wise or Revolut card loaded with funds
+- [ ] [Wise](https://wise.com/invite/dic/chingfengh7) or Revolut card loaded with funds
 - [ ] Some USD or EUR cash ($200-300) for emergency exchange on arrival
 - [ ] Confirm your debit/credit card works internationally and check foreign ATM fee policies
 

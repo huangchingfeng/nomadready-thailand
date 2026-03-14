@@ -28,7 +28,7 @@
 
 ### Money
 - [ ] Notify your bank you'll be using your card in Thailand (to prevent fraud blocks)
-- [ ] Get a travel-friendly debit card with low/no foreign transaction fees (Wise card, Revolut, Charles Schwab)
+- [ ] Get a travel-friendly debit card with low/no foreign transaction fees ([Wise](https://wise.com/invite/dic/chingfengh7) card, Revolut, Charles Schwab)
 - [ ] Download the Wise app for international transfers at good rates
 - [ ] Have at least $300-500 USD equivalent in cash (Thai baht or USD) for your first 48 hours — airport exchange rates are decent at Suvarnabhumi
 - [ ] Know the proof-of-funds requirement: 20,000 THB (~$570) per person for tourist visa/visa-exempt entry (rarely checked but can be)
