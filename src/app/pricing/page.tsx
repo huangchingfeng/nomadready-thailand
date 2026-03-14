@@ -4,29 +4,29 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function PricingPage() {
-  const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly' | 'lifetime'>('lifetime');
+  const [selectedPlan, setSelectedPlan] = useState<'free' | 'bali' | 'bundle'>('bali');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const faqs = [
     {
       q: 'What do I get with the free plan?',
-      a: 'You get full access to the first 3 chapters: Visa Complete Guide, Cost of Living Breakdown, and Best Neighborhoods. Plus 5 AI assistant questions per day and the currency converter tool.',
+      a: 'You get full access to the first 3 chapters of any guide. Plus 5 AI assistant questions per day and the currency converter tool.',
     },
     {
-      q: 'How long does Pro access last?',
-      a: 'Monthly plans renew every 30 days. Yearly plans renew every 12 months. The Lifetime plan is a one-time purchase — pay once and keep access forever, including all future updates and new country guides.',
+      q: 'What\'s included in the Bali Guide?',
+      a: 'All 12 expert chapters covering visas, cost of living, neighborhoods, coworking spaces, banking, healthcare, taxes, safety, and more. Includes lifetime access, unlimited AI assistant, and all future updates.',
     },
     {
-      q: 'Can I cancel anytime?',
-      a: 'Yes! Cancel anytime from your account. You\'ll keep access until the end of your current billing period. No questions asked. Lifetime plans never need cancellation — it\'s yours forever.',
+      q: 'What\'s the Southeast Asia Bundle?',
+      a: 'Get both Thailand and Bali guides at a discounted price. Perfect if you\'re planning to explore multiple countries or want maximum flexibility.',
     },
     {
-      q: 'How often is the guide updated?',
-      a: 'We monitor Thailand\'s visa policies, cost changes, and nomad scene continuously. Major updates happen monthly. Policy changes are reflected within 48 hours.',
+      q: 'Can I upgrade later?',
+      a: 'Yes! You can upgrade from a single guide to the bundle anytime. We\'ll credit your previous purchase.',
     },
     {
-      q: 'Is this just a PDF?',
-      a: 'No. NomadReady is an interactive web platform with AI-powered tools (Visa Finder, Budget Calculator), a 30-day tracking checklist, and an AI travel assistant. It\'s much more than a static guide.',
+      q: 'How often are the guides updated?',
+      a: 'We monitor visa policies, cost changes, and nomad scenes continuously. Major updates happen monthly. Policy changes are reflected within 48 hours. All lifetime purchases include free updates forever.',
     },
     {
       q: 'Do you offer refunds?',
@@ -38,30 +38,29 @@ export default function PricingPage() {
     },
     {
       q: 'Will there be guides for other countries?',
-      a: 'Yes! Portugal, Mexico, and Bali are in development. Lifetime subscribers get all future country guides included at no extra cost.',
+      a: 'Yes! Vietnam, Portugal, and Mexico are in development. Bundle subscribers get early access and discounted upgrades to new country guides.',
     },
   ];
 
   const comparisonFeatures = [
-    { feature: 'Chapters 1-3 (Visa, Cost, Neighborhoods)', free: true, pro: true },
-    { feature: 'Chapters 4-10 (Coworking, Banking, Tax, etc.)', free: false, pro: true },
-    { feature: 'Bonus: 30-Day Action Checklist', free: false, pro: true },
-    { feature: 'AI Travel Assistant', free: '5/day', pro: 'Unlimited' },
-    { feature: 'Smart Visa Finder tool', free: false, pro: true },
-    { feature: 'Budget Calculator', free: false, pro: true },
-    { feature: 'Interactive Checklist tracker', free: false, pro: true },
-    { feature: 'Currency Converter', free: true, pro: true },
-    { feature: 'Content updates', free: true, pro: true },
-    { feature: 'All future country guides', free: false, pro: 'Lifetime only' },
-    { feature: 'Priority support', free: false, pro: true },
+    { feature: 'First 3 chapters per guide', free: true, single: true, bundle: true },
+    { feature: 'All 12 chapters', free: false, single: '1 country', bundle: 'Thailand + Bali' },
+    { feature: 'AI Travel Assistant', free: '5/day', single: 'Unlimited', bundle: 'Unlimited' },
+    { feature: 'Smart Visa Finder', free: false, single: true, bundle: true },
+    { feature: 'Budget Calculator', free: false, single: true, bundle: true },
+    { feature: '30-day Checklist', free: false, single: true, bundle: true },
+    { feature: 'Lifetime access', free: true, single: true, bundle: true },
+    { feature: 'All future updates', free: true, single: true, bundle: true },
+    { feature: 'Future country guides', free: false, single: false, bundle: 'Early access' },
+    { feature: 'Priority support', free: false, single: true, bundle: true },
   ];
 
   // JSON-LD Product schema
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'NomadReady Pro — Thailand Digital Nomad Guide',
-    description: 'The interactive guide that saves you 40+ hours of research. 11 expert chapters, AI-powered tools, budget calculator, visa finder, and 30-day action checklist for digital nomads moving to Thailand.',
+    name: 'NomadReady — Digital Nomad Guides for Southeast Asia',
+    description: 'Interactive guides that save you 40+ hours of research. Expert chapters, AI-powered tools, budget calculator, visa finder, and 30-day action checklist for digital nomads.',
     brand: {
       '@type': 'Brand',
       name: 'NomadReady',
@@ -69,30 +68,21 @@ export default function PricingPage() {
     offers: [
       {
         '@type': 'Offer',
-        name: 'Monthly',
-        price: '9.00',
-        priceCurrency: 'USD',
-        priceValidUntil: '2026-12-31',
-        availability: 'https://schema.org/InStock',
-        url: 'https://nomadready.gumroad.com/l/pro',
-      },
-      {
-        '@type': 'Offer',
-        name: 'Yearly',
-        price: '69.00',
-        priceCurrency: 'USD',
-        priceValidUntil: '2026-12-31',
-        availability: 'https://schema.org/InStock',
-        url: 'https://nomadready.gumroad.com/l/pro',
-      },
-      {
-        '@type': 'Offer',
-        name: 'Lifetime',
+        name: 'Bali Digital Nomad Guide',
         price: '39.00',
         priceCurrency: 'USD',
         priceValidUntil: '2026-12-31',
         availability: 'https://schema.org/InStock',
-        url: 'https://nomadready.gumroad.com/l/lifetime',
+        url: 'https://autobot51.gumroad.com/l/oiixgr',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Southeast Asia Bundle (Thailand + Bali)',
+        price: '59.00',
+        priceCurrency: 'USD',
+        priceValidUntil: '2026-12-31',
+        availability: 'https://schema.org/InStock',
+        url: 'https://autobot51.gumroad.com/l/exdzw',
       },
     ],
     aggregateRating: {
@@ -135,9 +125,8 @@ export default function PricingPage() {
           <p className="text-sm text-slate-300">
             <span className="mr-2">🚀</span>
             <span className="font-semibold text-cyan-400">Launch Special</span>
-            {' — '}Lifetime access at{' '}
+            {' — '}Lifetime access from{' '}
             <span className="font-bold text-slate-100">$39</span>
-            <span className="text-slate-500 line-through ml-1">$79</span>
             . Limited time.
           </p>
         </div>
@@ -149,53 +138,9 @@ export default function PricingPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-slate-100 mb-4">
             Simple, transparent pricing
           </h1>
-          <p className="text-lg text-slate-400 max-w-xl mx-auto">
-            Start free with 3 chapters. Upgrade to Pro for the complete Thailand toolkit.
+          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+            Start free with 3 chapters. Upgrade for complete guides to Thailand, Bali, or both.
           </p>
-        </div>
-      </section>
-
-      {/* Billing toggle — 3 options */}
-      <section className="pb-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-center gap-2">
-            <button
-              onClick={() => setBillingCycle('monthly')}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                billingCycle === 'monthly'
-                  ? 'bg-slate-800 text-slate-100'
-                  : 'text-slate-500 hover:text-slate-300'
-              }`}
-            >
-              Monthly
-            </button>
-            <button
-              onClick={() => setBillingCycle('yearly')}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all flex items-center gap-2 ${
-                billingCycle === 'yearly'
-                  ? 'bg-slate-800 text-slate-100'
-                  : 'text-slate-500 hover:text-slate-300'
-              }`}
-            >
-              Yearly
-              <span className="px-2 py-0.5 bg-emerald-500/10 text-emerald-400 text-xs font-medium rounded-full">
-                Save 36%
-              </span>
-            </button>
-            <button
-              onClick={() => setBillingCycle('lifetime')}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all flex items-center gap-2 ${
-                billingCycle === 'lifetime'
-                  ? 'bg-slate-800 text-slate-100'
-                  : 'text-slate-500 hover:text-slate-300'
-              }`}
-            >
-              Lifetime
-              <span className="px-2 py-0.5 bg-cyan-500/10 text-cyan-400 text-xs font-medium rounded-full">
-                Best Value
-              </span>
-            </button>
-          </div>
         </div>
       </section>
 
@@ -215,7 +160,7 @@ export default function PricingPage() {
               </div>
               <ul className="space-y-4 mb-10 flex-1">
                 {[
-                  'First 3 expert chapters',
+                  'First 3 chapters of any guide',
                   'AI Travel Assistant (5 questions/day)',
                   'Currency converter tool',
                   'Content updates included',
@@ -236,35 +181,33 @@ export default function PricingPage() {
               </Link>
             </div>
 
-            {/* Lifetime — highlighted */}
+            {/* Bali Guide — highlighted */}
             <div className="relative bg-slate-800 border-2 border-cyan-500 rounded-2xl p-8 flex flex-col shadow-lg shadow-cyan-500/10">
               {/* Badge */}
               <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
                 <span className="px-4 py-1.5 bg-cyan-500 text-slate-950 text-xs font-bold rounded-full uppercase tracking-wide whitespace-nowrap">
-                  Most Popular — One-Time Payment
+                  🌴 Most Popular
                 </span>
               </div>
 
               <div className="mb-8">
-                <h2 className="text-xl font-semibold text-slate-100 mb-2">Lifetime</h2>
-                <p className="text-sm text-slate-400">Pay once, yours forever</p>
+                <h2 className="text-xl font-semibold text-slate-100 mb-2">Bali Guide</h2>
+                <p className="text-sm text-slate-400">Everything you need for Bali</p>
               </div>
               <div className="flex items-baseline gap-2 mb-2">
                 <span className="text-5xl font-bold text-slate-100">$39</span>
-                <span className="text-slate-500 line-through text-lg">$79</span>
               </div>
               <p className="text-sm text-emerald-400 mb-8">
-                One-time payment — no recurring fees
+                One-time payment — yours forever
               </p>
               <ul className="space-y-4 mb-10 flex-1">
                 {[
-                  'All 11 expert chapters',
+                  'All 12 expert chapters for Bali',
                   'Unlimited AI Travel Assistant',
                   'Smart Visa Finder tool',
                   'Budget Calculator',
                   '30-day interactive checklist',
                   'Lifetime content updates',
-                  'All future country guides included',
                   'Priority support',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-slate-300">
@@ -276,57 +219,49 @@ export default function PricingPage() {
                 ))}
               </ul>
               <a
-                href="https://nomadready.gumroad.com/l/lifetime"
+                href="https://autobot51.gumroad.com/l/oiixgr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center px-6 py-3.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/25"
               >
-                Get Lifetime Access — $39
+                Get Bali Guide — $39
               </a>
               <p className="text-center text-xs text-slate-500 mt-3">
                 7-day money-back guarantee
               </p>
             </div>
 
-            {/* Pro (Monthly/Yearly) */}
-            <div className="bg-slate-800 border border-slate-700 rounded-2xl p-8 flex flex-col">
+            {/* Southeast Asia Bundle */}
+            <div className="bg-slate-800 border border-purple-500/50 rounded-2xl p-8 flex flex-col">
               <div className="mb-8">
-                <h2 className="text-xl font-semibold text-slate-100 mb-2">Pro</h2>
-                <p className="text-sm text-slate-400">Flexible subscription</p>
+                <h2 className="text-xl font-semibold text-slate-100 mb-2 flex items-center gap-2">
+                  Southeast Asia Bundle
+                  <span className="px-2 py-0.5 bg-purple-500/10 text-purple-400 text-xs font-medium rounded-full">
+                    Save $19
+                  </span>
+                </h2>
+                <p className="text-sm text-slate-400">Thailand + Bali combo</p>
               </div>
-              <div className="flex items-baseline gap-1 mb-2">
-                <span className="text-5xl font-bold text-slate-100">
-                  {billingCycle === 'monthly' ? '$9' : billingCycle === 'yearly' ? '$69' : '$9'}
-                </span>
-                <span className="text-slate-500">
-                  /{billingCycle === 'yearly' ? 'year' : 'month'}
-                </span>
+              <div className="flex items-baseline gap-2 mb-2">
+                <span className="text-5xl font-bold text-slate-100">$59</span>
+                <span className="text-slate-500 line-through text-lg">$78</span>
               </div>
-              {billingCycle === 'yearly' ? (
-                <p className="text-sm text-slate-500 mb-8">
-                  That&apos;s just $5.75/month
-                </p>
-              ) : billingCycle === 'monthly' ? (
-                <p className="text-sm text-slate-500 mb-8">
-                  or $69/year (save 36%)
-                </p>
-              ) : (
-                <p className="text-sm text-slate-500 mb-8">
-                  Starting at $9/month or $69/year
-                </p>
-              )}
+              <p className="text-sm text-purple-400 mb-8">
+                Two countries, one price
+              </p>
               <ul className="space-y-4 mb-10 flex-1">
                 {[
-                  'All 11 expert chapters',
-                  'Smart Visa Finder tool',
-                  'Budget Calculator',
-                  '30-day interactive checklist',
-                  'AI Travel Assistant (unlimited)',
-                  'Content updates while subscribed',
+                  'All 12 chapters for Thailand',
+                  'All 12 chapters for Bali',
+                  'Unlimited AI Travel Assistant',
+                  'All tools for both countries',
+                  '30-day checklists (both)',
+                  'Lifetime updates for both',
+                  'Early access to new countries',
                   'Priority support',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-slate-400">
-                    <svg className="w-5 h-5 text-slate-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -334,13 +269,16 @@ export default function PricingPage() {
                 ))}
               </ul>
               <a
-                href="https://nomadready.gumroad.com/l/pro"
+                href="https://autobot51.gumroad.com/l/exdzw"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center px-6 py-3.5 border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 font-medium rounded-lg transition-all duration-200"
+                className="block w-full text-center px-6 py-3.5 bg-purple-500 hover:bg-purple-400 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-purple-500/25"
               >
-                Subscribe to Pro
+                Get Bundle — $59
               </a>
+              <p className="text-center text-xs text-slate-500 mt-3">
+                7-day money-back guarantee
+              </p>
             </div>
           </div>
         </div>
@@ -360,11 +298,14 @@ export default function PricingPage() {
                   <th className="text-left text-sm font-semibold text-slate-300 px-6 py-4">
                     Feature
                   </th>
-                  <th className="text-center text-sm font-semibold text-slate-300 px-6 py-4 w-28">
+                  <th className="text-center text-sm font-semibold text-slate-300 px-6 py-4 w-24">
                     Free
                   </th>
                   <th className="text-center text-sm font-semibold text-cyan-400 px-6 py-4 w-28">
-                    Pro
+                    Single
+                  </th>
+                  <th className="text-center text-sm font-semibold text-purple-400 px-6 py-4 w-28">
+                    Bundle
                   </th>
                 </tr>
               </thead>
@@ -391,12 +332,29 @@ export default function PricingPage() {
                       )}
                     </td>
                     <td className="text-center px-6 py-3.5">
-                      {row.pro === true ? (
+                      {row.single === true ? (
                         <svg className="w-5 h-5 text-cyan-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
+                      ) : row.single === false ? (
+                        <svg className="w-5 h-5 text-slate-700 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
                       ) : (
-                        <span className="text-xs text-cyan-400 font-medium">{row.pro}</span>
+                        <span className="text-xs text-cyan-400 font-medium">{row.single}</span>
+                      )}
+                    </td>
+                    <td className="text-center px-6 py-3.5">
+                      {row.bundle === true ? (
+                        <svg className="w-5 h-5 text-purple-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                      ) : row.bundle === false ? (
+                        <svg className="w-5 h-5 text-slate-700 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      ) : (
+                        <span className="text-xs text-purple-400 font-medium">{row.bundle}</span>
                       )}
                     </td>
                   </tr>
@@ -451,26 +409,28 @@ export default function PricingPage() {
       <section className="py-20 bg-slate-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-slate-100 mb-4">
-            Ready to plan your Thailand move?
+            Ready to plan your Southeast Asia move?
           </h2>
           <p className="text-lg text-slate-400 max-w-xl mx-auto mb-8">
-            Start reading for free, or get lifetime access for one payment of $39.
+            Start reading for free, or get lifetime access to expert guides.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://nomadready.gumroad.com/l/lifetime"
+              href="https://autobot51.gumroad.com/l/oiixgr"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/25"
             >
-              Get Lifetime Access — $39
+              Get Bali Guide — $39
             </a>
-            <Link
-              href="/guide"
-              className="px-8 py-3.5 border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 font-medium rounded-lg transition-all duration-200"
+            <a
+              href="https://autobot51.gumroad.com/l/exdzw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 bg-purple-500 hover:bg-purple-400 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-purple-500/25"
             >
-              Read Free Chapters
-            </Link>
+              Get Bundle — $59
+            </a>
           </div>
         </div>
       </section>
