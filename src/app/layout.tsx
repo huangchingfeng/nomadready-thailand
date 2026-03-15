@@ -5,6 +5,8 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import ChatWidget from '@/components/chat/ChatWidget';
 import ThemeProvider from '@/components/ui/ThemeProvider';
+import { Analytics } from '@vercel/analytics/react';
+import Script from 'next/script';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -59,6 +61,7 @@ export default function RootLayout({
           <main className="min-h-screen">{children}</main>
           <Footer />
           <ChatWidget />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
