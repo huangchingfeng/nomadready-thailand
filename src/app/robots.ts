@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/'],
       },
     ],
-    sitemap: 'https://website-zeta-vert-20.vercel.app/sitemap.xml',
+    sitemap: 'https://nomadready-thailand.vercel.app/sitemap.xml',
   };
 }

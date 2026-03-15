@@ -4,7 +4,7 @@ type EmailSignupFormProps = {
 };
 
 const FORM_ACTION = 'https://formsubmit.co/nikeshoxmiles@gmail.com';
-const NEXT_URL = 'https://website-zeta-vert-20.vercel.app/subscribe/success';
+const NEXT_URL = 'https://nomadready-thailand.vercel.app/subscribe/success';
 
 export default function EmailSignupForm({ source = 'homepage', compact = false }: EmailSignupFormProps) {
   return (
