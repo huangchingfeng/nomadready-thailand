@@ -7,6 +7,7 @@ export interface Chapter {
   chapterNumber: number;
   content: string;
   isFree: boolean;
+  isEmailGated: boolean;
   description: string;
 }
 
@@ -78,8 +79,9 @@ export function getAllChapters(country: Country): Chapter[] {
     const content = fs.readFileSync(path.join(contentDir, file), 'utf-8');
     const title = extractTitleFromContent(content);
 
-    // Chapters 00-03 are free, 04-11 require Pro
+    // Chapters 00-03 are free, 04-06 require email, 07-11 require Pro
     const isFree = chapterNumber <= 3;
+    const isEmailGated = chapterNumber >= 4 && chapterNumber <= 6;
     const descriptions = CHAPTER_DESCRIPTIONS[country];
 
     chapters.push({
@@ -88,6 +90,7 @@ export function getAllChapters(country: Country): Chapter[] {
       chapterNumber,
       content,
       isFree,
+      isEmailGated,
       description: descriptions[chapterNumber] || '',
     });
   }

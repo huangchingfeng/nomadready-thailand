@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { isProUser } from '@/lib/auth';
 import ChapterContent from '@/components/guide/ChapterContent';
 import ContentGate from '@/components/guide/ContentGate';
+import EmailGate from '@/components/guide/EmailGate';
 
 interface ChapterData {
   slug: string;
@@ -12,6 +13,7 @@ interface ChapterData {
   chapterNumber: number;
   content: string;
   isFree: boolean;
+  isEmailGated?: boolean;
   description: string;
 }
 
@@ -36,10 +38,12 @@ interface ChapterReaderProps {
 
 export default function ChapterReader({ chapter, headings, prev, next, country = 'thailand' }: ChapterReaderProps) {
   const [isPro, setIsPro] = useState(false);
+  const [hasEmail, setHasEmail] = useState(false);
   const [activeHeading, setActiveHeading] = useState('');
 
   useEffect(() => {
     setIsPro(isProUser());
+    setHasEmail(!!localStorage.getItem('nomadready_email'));
   }, []);
 
   // 追蹤捲動位置高亮目錄
@@ -63,7 +67,8 @@ export default function ChapterReader({ chapter, headings, prev, next, country =
     return () => observer.disconnect();
   }, [headings]);
 
-  const canRead = chapter.isFree || isPro;
+  const isEmailGated = chapter.isEmailGated || (chapter.chapterNumber >= 4 && chapter.chapterNumber <= 6);
+  const canRead = chapter.isFree || isPro || (isEmailGated && hasEmail);
 
   // 付費章節只顯示前幾段
   function getPreviewContent(content: string): string {
@@ -110,6 +115,13 @@ export default function ChapterReader({ chapter, headings, prev, next, country =
                 <span className="px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-medium">
                   Free
                 </span>
+              ) : isEmailGated ? (
+                <span className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-medium">
+                  <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  {hasEmail ? 'Free' : 'Email to unlock'}
+                </span>
               ) : (
                 <span className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs font-medium">
                   <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -133,7 +145,11 @@ export default function ChapterReader({ chapter, headings, prev, next, country =
             <>
               <div className="relative">
                 <ChapterContent content={getPreviewContent(chapter.content)} />
-                <ContentGate chapterTitle={cleanTitle} />
+                {isEmailGated && !hasEmail ? (
+                  <EmailGate chapterTitle={cleanTitle} onUnlock={() => setHasEmail(true)} />
+                ) : (
+                  <ContentGate chapterTitle={cleanTitle} />
+                )}
               </div>
             </>
           )}
