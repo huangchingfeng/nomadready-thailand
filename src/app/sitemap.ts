@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllChapters } from '@/lib/content';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://nomadready-thailand.vercel.app';
+  const baseUrl = 'https://www.nomadreadyhq.com';
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [

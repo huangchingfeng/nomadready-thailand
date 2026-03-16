@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nomadready-thailand.vercel.app'),
+  metadataBase: new URL('https://www.nomadreadyhq.com'),
   title: 'NomadReady — Digital Nomad Country Guides',
   description:
     'Interactive digital nomad guides for Thailand, Bali, and more. AI-powered, always updated. Visa, cost of living, neighborhoods, coworking, banking — everything you need before you land.',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       'Interactive digital nomad guides for Thailand, Bali, and more. AI-powered tools, expert chapters, always updated.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://nomadready-thailand.vercel.app',
+    url: 'https://www.nomadreadyhq.com',
     siteName: 'NomadReady',
   },
   twitter: {
