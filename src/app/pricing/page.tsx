@@ -74,7 +74,7 @@ export default function PricingPage() {
         priceCurrency: 'USD',
         priceValidUntil: '2026-12-31',
         availability: 'https://schema.org/InStock',
-        url: 'https://autobot51.gumroad.com/l/oiixgr',
+        url: 'https://nomadready.gumroad.com/l/oiixgr',
       },
       {
         '@type': 'Offer',
@@ -83,7 +83,7 @@ export default function PricingPage() {
         priceCurrency: 'USD',
         priceValidUntil: '2026-12-31',
         availability: 'https://schema.org/InStock',
-        url: 'https://autobot51.gumroad.com/l/exdzw',
+        url: 'https://nomadready.gumroad.com/l/exdzw',
       },
     ],
     aggregateRating: {
@@ -228,7 +228,7 @@ export default function PricingPage() {
                 ))}
               </ul>
               <a
-                href="https://autobot51.gumroad.com/l/oiixgr"
+                href="https://nomadready.gumroad.com/l/oiixgr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center px-6 py-3.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/25"
@@ -278,7 +278,7 @@ export default function PricingPage() {
                 ))}
               </ul>
               <a
-                href="https://autobot51.gumroad.com/l/exdzw"
+                href="https://nomadready.gumroad.com/l/exdzw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center px-6 py-3.5 bg-purple-500 hover:bg-purple-400 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-purple-500/25"
@@ -425,7 +425,7 @@ export default function PricingPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://autobot51.gumroad.com/l/oiixgr"
+              href="https://nomadready.gumroad.com/l/oiixgr"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/25"
@@ -433,7 +433,7 @@ export default function PricingPage() {
               Get Bali Guide — $39
             </a>
             <a
-              href="https://autobot51.gumroad.com/l/exdzw"
+              href="https://nomadready.gumroad.com/l/exdzw"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3.5 bg-purple-500 hover:bg-purple-400 text-white font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-purple-500/25"
