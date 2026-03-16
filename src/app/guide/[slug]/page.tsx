@@ -59,6 +59,7 @@ export default async function ChapterPage({ params }: PageProps) {
           chapterNumber: chapter.chapterNumber,
           content: chapter.content,
           isFree: chapter.isFree,
+          isEmailGated: chapter.isEmailGated,
           description: chapter.description,
         }}
         headings={headings}
