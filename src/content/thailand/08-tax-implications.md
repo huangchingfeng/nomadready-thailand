@@ -2,6 +2,8 @@
 
 > ⚠️ **This chapter is for general guidance only.** Tax laws are complex and change frequently. Consult a qualified tax advisor before making decisions. Firms like Expat Tax Thailand, Benoit Partners, or Forbes & Partners specialize in this.
 
+> 🆕 **March 2026 Update:** The annual tax filing deadline for foreigners is **April 8, 2026**. If you stayed 180+ days in Thailand during 2025, you may need to file. See the Filing section below.
+
 ---
 
 ## The Big Change (January 2024)

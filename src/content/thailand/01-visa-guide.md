@@ -63,6 +63,10 @@ Thailand's TDAC system now **cross-references bank inflows with visa types**. DT
 - Have your employment contract and company registration **authenticated/notarized** by the embassy first
 - Dependents can join: legal spouse and unmarried children under 20
 
+### 🆕 March 2026 Update
+- Embassies now consistently enforce the **90-day consecutive balance** requirement for the 500,000 THB savings proof — having the money deposited right before applying is no longer accepted
+- **TDAC (Thailand Digital Arrival Card)** is now mandatory for all foreign arrivals — complete it online within 72 hours before travel at [tdac.immigration.go.th](https://tdac.immigration.go.th). This replaced the old TM.6 paper form
+
 ### Verdict
 🟢 **Best option for most digital nomads.** The 5-year validity and 360-day stays make this the sweet spot between cost and convenience.
 
@@ -208,6 +212,12 @@ The **premium option** for high earners. 10-year visa with legal work authorizat
 - Personal income of **$80,000+/year** OR net assets of **$1M+**
 - > **February 2025 update:** The $80,000 income requirement has been relaxed for this category. Applicants may now qualify based on investment in Thai government bonds, FDI, or property worth at least $500,000. Check ltr.boi.go.th for current criteria.
 
+### 🆕 2026 LTR Updates
+- **Work experience requirements removed** for eligible remote workers and skilled professionals
+- **Lower employer revenue threshold** (check ltr.boi.go.th for current numbers)
+- **Same-sex spouses** now recognized as dependents
+- **Simplified wealthy route** with more flexible qualifying criteria
+
 ### Category 3: Work-from-Thailand (Most Relevant for Nomads)
 
 - Annual income of **$80,000+** for the past 2 years
@@ -342,6 +352,18 @@ Possibly. Thailand's DTV was a signal that the government wants to attract this 
 - **More restrictive:** Stricter enforcement as Thailand builds tax infrastructure for remote workers
 
 For now, the grey area works in your favor. But stay informed — join nomad Facebook groups and follow Thai immigration news for policy updates.
+
+---
+
+## 🆕 Breaking: Permanent Residency Window Open (March 2026)
+
+Thailand has opened a **rare PR application window from March 9 to April 3, 2026**. This is an unusually short period. Requirements include 3+ consecutive years of residence on a non-immigrant visa, stable income, Thai language ability, and clean criminal record. If you've been in Thailand long-term, this is worth exploring — these windows don't come often.
+
+Apply at your local immigration office. Check [immigration.go.th](https://immigration.go.th) for details.
+
+## ⚠️ Upcoming: Possible Visa-Exempt Reduction
+
+A proposal to **reduce visa-exempt stays from 60 to 30 days** is under discussion in Thailand's government. As of March 2026, this has NOT been enacted — 60-day visa-exempt entry is still in effect. But if you're planning a trip based on the current 60-day window, monitor this situation. We'll update this chapter immediately if the law changes.
 
 ---
 
