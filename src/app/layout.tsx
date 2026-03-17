@@ -1,12 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
-import ChatWidget from '@/components/chat/ChatWidget';
 import ThemeProvider from '@/components/ui/ThemeProvider';
 import { Analytics } from '@vercel/analytics/react';
-import Script from 'next/script';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -52,15 +48,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html suppressHydrationWarning>
       <body
         className={`${inter.variable} font-sans bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased min-h-screen transition-colors duration-200`}
       >
         <ThemeProvider>
-          <Navbar />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
-          <ChatWidget />
+          {children}
           <Analytics />
         </ThemeProvider>
       </body>

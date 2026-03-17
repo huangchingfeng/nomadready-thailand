@@ -15,9 +15,10 @@ interface SidebarProps {
   chapters: SidebarChapter[];
   activeSlug?: string;
   country?: string;
+  locale?: string;
 }
 
-export default function Sidebar({ chapters, activeSlug, country = 'thailand' }: SidebarProps) {
+export default function Sidebar({ chapters, activeSlug, country = 'thailand', locale }: SidebarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isPro, setIsPro] = useState(false);
 
@@ -84,7 +85,7 @@ export default function Sidebar({ chapters, activeSlug, country = 'thailand' }: 
               return (
                 <Link
                   key={chapter.slug}
-                  href={`/${country}/${chapter.slug}`}
+                  href={`${locale ? `/${locale}` : ''}/${country}/${chapter.slug}`}
                   onClick={() => setIsOpen(false)}
                   className={`
                     flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm
