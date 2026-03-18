@@ -109,6 +109,8 @@ Thailand has excellent, cheap internet. 1 Gbps fiber for $23/month.
 
 **Work cafes with insane WiFi:** OTTO Bangkok (910 Mbps!), Paper Plane Project (40th floor, free entry).
 
+**VPN:** Thailand doesn't block VPNs, but [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=143233&url_id=902) is recommended for banking apps and streaming ($3.49/mo). Essential in Bali where Indonesia blocks Reddit and other sites.
+
 Details in **Chapter 5: Internet & SIM Cards**.`,
     chapterRef: '5',
   },

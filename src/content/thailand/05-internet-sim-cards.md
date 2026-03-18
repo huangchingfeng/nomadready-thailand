@@ -157,7 +157,7 @@ Thailand **does not block VPNs.** Unlike China or Iran, you can use any VPN serv
 
 | VPN | Monthly | Speed Impact | Servers | Best For |
 |-----|---------|-------------|---------|----------|
-| **NordVPN** | $3.49/mo (2-year plan) | 15-25% reduction | 60+ countries | Best overall |
+| **[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=143233&url_id=902)** | $3.49/mo (2-year plan) | 15-25% reduction | 60+ countries | Best overall |
 | **ExpressVPN** | $6.67/mo (1-year plan) | 20-30% reduction | 94 countries | Most reliable connections |
 | **Surfshark** | $2.49/mo (2-year plan) | 20-35% reduction | 100+ countries | Best budget pick, unlimited devices |
 

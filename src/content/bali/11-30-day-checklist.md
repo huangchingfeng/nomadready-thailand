@@ -17,7 +17,7 @@
 ### Tech Setup
 - [ ] Download **eSIM** (Airalo or Holafly) — activate on landing for instant connectivity
 - [ ] Download apps: **Grab**, **Gojek** (ride-hailing), **Google Maps** (offline Bali map), **Wise** (money transfers), **XE** (currency converter)
-- [ ] VPN installed (some sites/services are blocked in Indonesia)
+- [ ] VPN installed — [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=143233&url_id=902) recommended (some sites/services are blocked in Indonesia)
 - [ ] Backup laptop charger + universal adapter (Indonesia uses Type C/F plugs, 230V)
 - [ ] Power bank (charged) — Bali has more power outages than you're used to
 
@@ -147,7 +147,7 @@
 | **Airalo** | eSIM management |
 | **XE Currency** | Real-time IDR conversion |
 | **Speedtest** | Check WiFi before committing |
-| **VPN (any)** | Some sites blocked in Indonesia |
+| **[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=143233&url_id=902)** | Some sites blocked in Indonesia — essential |
 
 ---
 

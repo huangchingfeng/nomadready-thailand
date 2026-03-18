@@ -99,6 +99,14 @@
 
 ---
 
+## VPN — Essential in Indonesia
+
+Indonesia actively blocks certain websites including Reddit, some news sites, and adult content. **A VPN is not optional here** — it's a daily tool.
+
+**Our pick:** [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=143233&url_id=902) — $3.49/mo on a 2-year plan, fast servers in Singapore (closest to Bali), works reliably on Indonesian networks. Install it before you arrive.
+
+---
+
 ## Pro Tips
 
 1. **Always have a backup.** Your villa WiFi will go down. Have mobile data ready.
@@ -107,6 +115,7 @@
 4. **Video calls:** For reliable Zoom/Meet calls, you need 15+ Mbps upload. Confirm this specifically.
 5. **Rainy season impact:** Power outages are more common Nov-Mar. A laptop with good battery + mobile hotspot = your lifeline.
 6. **Power banks:** Carry one. Power infrastructure is less reliable than Thailand's.
+7. **VPN always on.** Indonesia blocks Reddit and other sites. Keep your [VPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=143233&url_id=902) running.
 
 ---
 

@@ -48,7 +48,7 @@
 - [ ] Back up your laptop and phone
 - [ ] Set up 2-factor authentication on all important accounts
 - [ ] Enable "Find My Device" on phone and laptop
-- [ ] VPN: Download and test a VPN app (ExpressVPN, NordVPN, or Surfshark). Some services may be blocked or throttled
+- [ ] VPN: Download and test a VPN app ([NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=143233&url_id=902), ExpressVPN, or Surfshark). Some services may be blocked or throttled
 
 ### Packing Essentials (Thailand-Specific)
 - [ ] Lightweight, breathable clothing (it's hot and humid year-round)
