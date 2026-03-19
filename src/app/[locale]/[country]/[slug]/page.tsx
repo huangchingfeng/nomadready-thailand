@@ -45,6 +45,9 @@ export async function generateMetadata({ params }: PageProps) {
   return {
     title: `${cleanTitle} — NomadReady: ${countryName}`,
     description: chapter.description,
+    alternates: {
+      canonical: `https://www.nomadreadyhq.com/en/${country}/${slug}`,
+    },
   };
 }
 

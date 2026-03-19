@@ -7,6 +7,7 @@ export async function generateStaticParams() {
 export const metadata = {
   title: 'Terms of Service — NomadReady',
   description: 'NomadReady terms of service and usage agreement.',
+  alternates: { canonical: 'https://www.nomadreadyhq.com/en/terms' },
 };
 
 export default function TermsPage() {

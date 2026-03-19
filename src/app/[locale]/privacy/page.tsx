@@ -7,6 +7,7 @@ export async function generateStaticParams() {
 export const metadata = {
   title: 'Privacy Policy — NomadReady',
   description: 'NomadReady privacy policy. Learn how we handle your data.',
+  alternates: { canonical: 'https://www.nomadreadyhq.com/en/privacy' },
 };
 
 export default function PrivacyPage() {

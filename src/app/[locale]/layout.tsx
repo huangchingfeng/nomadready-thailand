@@ -27,6 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     t = (await import('@/locales/en.json')).default;
   }
 
+  const baseUrl = 'https://www.nomadreadyhq.com';
+
   return {
     title: `${t['site.name']} — ${t['site.tagline']}`,
     description: t['site.description'],
@@ -34,8 +36,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       locale: info.ogLocale,
     },
     alternates: {
+      canonical: `${baseUrl}/en`,
       languages: Object.fromEntries(
-        SUPPORTED_LOCALES.map(l => [LOCALE_INFO[l].htmlLang, `/${l}`])
+        SUPPORTED_LOCALES.map(l => [LOCALE_INFO[l].htmlLang, `${baseUrl}/${l}`])
       ),
     },
   };

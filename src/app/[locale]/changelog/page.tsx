@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "What's New — Guide Updates | NomadReady: Thailand",
   description:
     'See the latest updates to the NomadReady Thailand guide — new chapters, policy changes, tool improvements, and more.',
+  alternates: { canonical: 'https://www.nomadreadyhq.com/en/changelog' },
 };
 
 const changelogEntries = [

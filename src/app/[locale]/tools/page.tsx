@@ -7,6 +7,7 @@ export async function generateStaticParams() {
 export const metadata = {
   title: 'Tools — NomadReady: Thailand',
   description: 'Interactive tools for digital nomads: Smart Visa Finder, Budget Calculator, 30-Day Checklist, and Currency Converter.',
+  alternates: { canonical: 'https://www.nomadreadyhq.com/en/tools' },
 };
 
 const tools = [
