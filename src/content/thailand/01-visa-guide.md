@@ -65,6 +65,9 @@ Thailand's TDAC system now **cross-references bank inflows with visa types**. DT
 
 ### 🆕 March 2026 Update
 - Embassies now consistently enforce the **90-day consecutive balance** requirement for the 500,000 THB savings proof — having the money deposited right before applying is no longer accepted
+- **Location Verification (NEW):** You must now apply at the embassy in your actual country of residence. Proof required: a utility bill or driver's license matching the embassy's country
+- **Health insurance required:** Minimum coverage of 40,000 THB (inpatient) + 10,000 THB (outpatient) for your stay duration. [SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador) meets this requirement
+- **Soft Power courses deprioritized:** Short-term Muay Thai or cooking courses are now being directed to Education Visas instead of DTV. The "workcation" (remote work) pathway remains the primary DTV route
 - **TDAC (Thailand Digital Arrival Card)** is now mandatory for all foreign arrivals — complete it online within 72 hours before travel at [tdac.immigration.go.th](https://tdac.immigration.go.th). This replaced the old TM.6 paper form
 
 ### Verdict
