@@ -23,15 +23,14 @@ export default function EmailGate({ chapterTitle, onUnlock }: EmailGateProps) {
     setError('');
 
     try {
-      // Send to FormSubmit
-      await fetch('https://formsubmit.co/ajax/nikeshoxmiles@gmail.com', {
+      // Subscribe to Kit welcome sequence
+      await fetch('https://api.convertkit.com/v3/sequences/2685295/subscribe', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          api_key: '7ttdxWfRmWRMUcUUcuYokA',
           email,
-          source: 'email-gate',
-          chapter: chapterTitle,
-          timestamp: new Date().toISOString(),
+          fields: { source: 'email-gate', chapter: chapterTitle },
         }),
       });
 
