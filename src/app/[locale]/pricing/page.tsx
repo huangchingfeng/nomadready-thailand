@@ -6,8 +6,43 @@ import { useState } from 'react';
 
 
 export default function PricingPage() {
-  const [selectedPlan, setSelectedPlan] = useState<'free' | 'bali' | 'bundle'>('bali');
+  const [selectedCountry, setSelectedCountry] = useState<'thailand' | 'bali'>('thailand');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const countryConfig = {
+    thailand: {
+      name: 'Thailand',
+      flag: '🇹🇭',
+      gumroadUrl: 'https://nomadready.gumroad.com/l/lifetime',
+      guidePath: '/en/thailand/00-cover',
+      features: [
+        'All 12 expert chapters for Thailand',
+        'Unlimited AI Travel Assistant',
+        'Smart Visa Finder tool',
+        'Budget Calculator',
+        '30-day interactive checklist',
+        'Lifetime content updates',
+        'Priority support',
+      ],
+    },
+    bali: {
+      name: 'Bali',
+      flag: '🇮🇩',
+      gumroadUrl: 'https://nomadready.gumroad.com/l/oiixgr',
+      guidePath: '/en/bali/00-cover',
+      features: [
+        'All 12 expert chapters for Bali',
+        'Unlimited AI Travel Assistant',
+        'Smart Visa Finder tool',
+        'Budget Calculator',
+        '30-day interactive checklist',
+        'Lifetime content updates',
+        'Priority support',
+      ],
+    },
+  };
+
+  const country = countryConfig[selectedCountry];
 
   const faqs = [
     {
@@ -15,7 +50,7 @@ export default function PricingPage() {
       a: 'You get full access to the first 3 chapters of any guide. Plus 5 AI assistant questions per day and the currency converter tool.',
     },
     {
-      q: 'What\'s included in the Bali Guide?',
+      q: 'What\'s included in each country guide?',
       a: 'All 12 expert chapters covering visas, cost of living, neighborhoods, coworking spaces, banking, healthcare, taxes, safety, and more. Includes lifetime access, unlimited AI assistant, and all future updates.',
     },
     {
@@ -68,6 +103,33 @@ export default function PricingPage() {
       name: 'NomadReady',
     },
     offers: [
+      {
+        '@type': 'Offer',
+        name: 'Thailand Digital Nomad Guide — Lifetime',
+        price: '39.00',
+        priceCurrency: 'USD',
+        priceValidUntil: '2026-12-31',
+        availability: 'https://schema.org/InStock',
+        url: 'https://nomadready.gumroad.com/l/lifetime',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Thailand Digital Nomad Guide — Pro Monthly',
+        price: '9.00',
+        priceCurrency: 'USD',
+        priceValidUntil: '2026-12-31',
+        availability: 'https://schema.org/InStock',
+        url: 'https://nomadready.gumroad.com/l/pro-monthly',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Thailand Digital Nomad Guide — Pro Yearly',
+        price: '69.00',
+        priceCurrency: 'USD',
+        priceValidUntil: '2026-12-31',
+        availability: 'https://schema.org/InStock',
+        url: 'https://nomadready.gumroad.com/l/pro-yearly',
+      },
       {
         '@type': 'Offer',
         name: 'Bali Digital Nomad Guide',
@@ -138,7 +200,7 @@ export default function PricingPage() {
       <section className="relative pt-20 pb-12 overflow-hidden">
         <Image
           src="/images/photos/hero-bali.jpg"
-          alt="Bali rice terraces — your next remote work destination"
+          alt="Southeast Asia — your next remote work destination"
           fill
           className="object-cover"
           priority
@@ -151,6 +213,35 @@ export default function PricingPage() {
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
             Start free with 3 chapters. Upgrade for complete guides to Thailand, Bali, or both.
           </p>
+        </div>
+      </section>
+
+      {/* Country selector */}
+      <section className="pt-10 pb-4">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-center gap-3">
+            <span className="text-sm text-slate-500 mr-2">Choose your destination:</span>
+            <button
+              onClick={() => setSelectedCountry('thailand')}
+              className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-200 ${
+                selectedCountry === 'thailand'
+                  ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25'
+                  : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-300'
+              }`}
+            >
+              🇹🇭 Thailand
+            </button>
+            <button
+              onClick={() => setSelectedCountry('bali')}
+              className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-200 ${
+                selectedCountry === 'bali'
+                  ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25'
+                  : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-300'
+              }`}
+            >
+              🇮🇩 Bali
+            </button>
+          </div>
         </div>
       </section>
 
@@ -184,25 +275,25 @@ export default function PricingPage() {
                 ))}
               </ul>
               <Link
-                href="/guide"
+                href={country.guidePath}
                 className="block w-full text-center px-6 py-3.5 border border-slate-600 hover:border-slate-500 text-slate-300 hover:text-slate-100 font-medium rounded-lg transition-all duration-200"
               >
                 Read Free Chapters
               </Link>
             </div>
 
-            {/* Bali Guide — highlighted */}
+            {/* Single Country Guide — highlighted */}
             <div className="relative bg-slate-800 border-2 border-cyan-500 rounded-2xl p-8 flex flex-col shadow-lg shadow-cyan-500/10">
               {/* Badge */}
               <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
                 <span className="px-4 py-1.5 bg-cyan-500 text-slate-950 text-xs font-bold rounded-full uppercase tracking-wide whitespace-nowrap">
-                  🌴 Most Popular
+                  {country.flag} Most Popular
                 </span>
               </div>
 
               <div className="mb-8">
-                <h2 className="text-xl font-semibold text-slate-100 mb-2">Bali Guide</h2>
-                <p className="text-sm text-slate-400">Everything you need for Bali</p>
+                <h2 className="text-xl font-semibold text-slate-100 mb-2">{country.name} Guide</h2>
+                <p className="text-sm text-slate-400">Everything you need for {country.name}</p>
               </div>
               <div className="flex items-baseline gap-2 mb-2">
                 <span className="text-5xl font-bold text-slate-100">$39</span>
@@ -211,15 +302,7 @@ export default function PricingPage() {
                 One-time payment — yours forever
               </p>
               <ul className="space-y-4 mb-10 flex-1">
-                {[
-                  'All 12 expert chapters for Bali',
-                  'Unlimited AI Travel Assistant',
-                  'Smart Visa Finder tool',
-                  'Budget Calculator',
-                  '30-day interactive checklist',
-                  'Lifetime content updates',
-                  'Priority support',
-                ].map((item, i) => (
+                {country.features.map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-slate-300">
                     <svg className="w-5 h-5 text-cyan-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -229,12 +312,12 @@ export default function PricingPage() {
                 ))}
               </ul>
               <a
-                href="https://nomadready.gumroad.com/l/oiixgr"
+                href={country.gumroadUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center px-6 py-3.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/25"
               >
-                Get Bali Guide — $39
+                Get {country.name} Guide — $39
               </a>
               <p className="text-center text-xs text-slate-500 mt-3">
                 7-day money-back guarantee
@@ -425,6 +508,14 @@ export default function PricingPage() {
             Start reading for free, or get lifetime access to expert guides.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://nomadready.gumroad.com/l/lifetime"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg transition-all duration-200 shadow-lg shadow-cyan-500/25"
+            >
+              Get Thailand Guide — $39
+            </a>
             <a
               href="https://nomadready.gumroad.com/l/oiixgr"
               target="_blank"

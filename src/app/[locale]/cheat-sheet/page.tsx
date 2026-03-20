@@ -109,18 +109,24 @@ export default function CheatSheetPage() {
           ))}
         </div>
 
-        <div className="mt-10 grid gap-4 md:grid-cols-2">
+        <div className="mt-10 grid gap-4 md:grid-cols-3">
+          <Link
+            href="https://nomadready.gumroad.com/l/lifetime?utm_source=cheat-sheet&utm_medium=site&utm_campaign=lead-magnet"
+            className="rounded-2xl border border-cyan-500/30 bg-cyan-500/10 px-5 py-4 text-center text-sm font-semibold text-cyan-300 transition hover:border-cyan-400 hover:text-cyan-200"
+          >
+            🇹🇭 Get the Thailand guide
+          </Link>
           <Link
             href="https://nomadready.gumroad.com/l/oiixgr?utm_source=cheat-sheet&utm_medium=site&utm_campaign=lead-magnet"
             className="rounded-2xl border border-amber-500/30 bg-amber-500/10 px-5 py-4 text-center text-sm font-semibold text-amber-300 transition hover:border-amber-400 hover:text-amber-200"
           >
-            Open the Bali guide
+            🇮🇩 Get the Bali guide
           </Link>
           <Link
             href="https://nomadready.gumroad.com/l/exdzw?utm_source=cheat-sheet&utm_medium=site&utm_campaign=lead-magnet"
-            className="rounded-2xl border border-cyan-500/30 bg-cyan-500/10 px-5 py-4 text-center text-sm font-semibold text-cyan-300 transition hover:border-cyan-400 hover:text-cyan-200"
+            className="rounded-2xl border border-purple-500/30 bg-purple-500/10 px-5 py-4 text-center text-sm font-semibold text-purple-300 transition hover:border-purple-400 hover:text-purple-200"
           >
-            Get the Thailand + Bali bundle
+            🌏 Get the Thailand + Bali bundle
           </Link>
         </div>
       </div>
