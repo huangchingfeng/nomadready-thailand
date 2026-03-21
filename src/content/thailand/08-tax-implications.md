@@ -88,7 +88,7 @@ Thailand's Revenue Department has moved from "rules on paper" to **active enforc
 - **Data matching is live:** Immigration records, bank transactions, and tax filings are now systematically cross-referenced. The TDAC system flags anomalies between your visa type and financial activity.
 - **DTV holders under scrutiny:** If you hold a DTV and receive payments from Thai-registered entities, expect questions. Even small consulting fees can trigger an audit.
 - **Filing deadline:** 2025 tax year returns are due **March 31, 2026** (paper) or **April 8, 2026** (e-filing via rd.go.th). Both residents and non-residents with Thai-source income must file. Use Form PND 90 if you have multiple income sources (most expats). Late filing penalty: up to 2,000 THB + 1.5%/month surcharge on unpaid tax.
-- **Proposed grace period:** The Revenue Department has proposed exempting foreign-sourced income from tax if remitted within the same or following tax year. This is **not yet enacted** — do not rely on it until officially passed.
+- **Proposed grace period:** The Revenue Department has proposed exempting foreign-sourced income from tax if remitted within the same or following tax year. A tax exemption for foreign-sourced income remitted during **Q1 2026 (January–March)** is expected to take effect — but this is **not yet officially enacted**. Do not rely on it until formally passed. Monitor the Bangkok Post and Revenue Department website for official announcements.
 
 **Bottom line:** The "nobody enforces it" era is over. Plan accordingly.
 
