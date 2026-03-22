@@ -17,6 +17,15 @@ export default async function Root({ params }: { params: Promise<{ locale: strin
 
   return (
     <main className="min-h-screen bg-[var(--bg-primary)]">
+      {/* Launch Banner */}
+      <div className="bg-gradient-to-r from-cyan-600 to-teal-600 text-white text-center py-3 px-4">
+        <p className="text-sm md:text-base font-medium">
+          🎉 Launch week! Get the full guide <strong>FREE</strong> — use code <code className="bg-white/20 px-2 py-0.5 rounded font-mono">LAUNCHFREE</code> at checkout →{' '}
+          <a href="https://nomadready.gumroad.com" className="underline font-bold hover:text-cyan-200 transition">
+            Grab it now
+          </a>
+        </p>
+      </div>
       {/* Hero */}
       <section className="relative px-6 py-20 md:py-32 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-[var(--text-primary)] mb-4">
