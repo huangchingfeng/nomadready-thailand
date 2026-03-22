@@ -20,10 +20,11 @@ export default async function Root({ params }: { params: Promise<{ locale: strin
       {/* Launch Banner */}
       <div className="bg-gradient-to-r from-cyan-600 to-teal-600 text-white text-center py-3 px-4">
         <p className="text-sm md:text-base font-medium">
-          🎉 Launch week! Get the full guide <strong>FREE</strong> — use code <code className="bg-white/20 px-2 py-0.5 rounded font-mono">LAUNCHFREE</code> at checkout →{' '}
+          🎉 Founding 50 — Get the full guide for <strong>$9</strong> (75% off) — use code <code className="bg-white/20 px-2 py-0.5 rounded font-mono">FOUNDING50</code> at checkout →{' '}
           <a href="https://nomadready.gumroad.com" className="underline font-bold hover:text-cyan-200 transition">
-            Grab it now
+            Grab your spot
           </a>
+          <span className="text-cyan-200 text-xs ml-2">Only 50 spots available</span>
         </p>
       </div>
       {/* Hero */}
