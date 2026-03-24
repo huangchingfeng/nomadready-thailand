@@ -370,9 +370,11 @@ Thailand has opened a **rare PR application window from March 9 to April 3, 2026
 
 Apply at your local immigration office. Check [immigration.go.th](https://immigration.go.th) for details.
 
-## ⚠️ Upcoming: Possible Visa-Exempt Reduction
+## 🚨 Upcoming: Visa-Exempt Reduction (60 → 30 Days)
 
-A proposal to **reduce visa-exempt stays from 60 to 30 days** is under discussion in Thailand's government. As of March 2026, this has NOT been enacted — 60-day visa-exempt entry is still in effect. But if you're planning a trip based on the current 60-day window, monitor this situation. We'll update this chapter immediately if the law changes.
+**Update March 24, 2026:** Thailand's Ministry of Foreign Affairs has **formally approved** a proposal to reduce visa-exempt stays from 60 to 30 days. This still requires Cabinet approval before taking effect — expected after Songkran (mid-April 2026). The 30-day extension option (1,900 THB) would remain available, so max visa-free stay would be 60 days instead of the current 90.
+
+**What to do now:** If you're planning a trip based on the current 60-day visa-free window, either depart before the change takes effect or apply for a Tourist Visa / DTV in advance. We'll update this chapter immediately when the Cabinet decision is announced.
 
 ---
 
@@ -422,4 +424,6 @@ On a tight budget
 
 ---
 
-*Sources: Thai Immigration Bureau, BOI (ltr.boi.go.th), thaievisa.go.th, Siam Legal International, ExpatDen, ThaiEmbassy.com. All information verified as of March 2026.*
+**Don't forget:** Complete your [Thailand Digital Arrival Card (TDAC)](https://tdac.immigration.go.th) within 72 hours before your flight. This is mandatory for all foreign arrivals since May 2025 — you won't be able to check in without it.
+
+*Sources: Thai Immigration Bureau, BOI (ltr.boi.go.th), thaievisa.go.th, Siam Legal International, ExpatDen, ThaiEmbassy.com. All information verified as of March 24, 2026.*
