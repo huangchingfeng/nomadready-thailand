@@ -1,7 +1,9 @@
 # Chapter 1: Visa Complete Guide
 
-> **Last Updated:** March 2026
+> **Last Updated:** March 24, 2026
 > **Critical Note:** Thailand's visa rules changed significantly in November 2025. If you're reading information from before that date, it's likely outdated.
+
+> 🚨 **BREAKING (March 22, 2026):** Thailand's Ministry of Foreign Affairs has approved a proposal to **reduce visa-free stays from 60 days to 30 days**. This still requires Cabinet approval before taking effect — expected after Songkran (mid-April 2026). The 30-day extension option (+1,900 THB) would remain available. If you're planning a visa-free trip, monitor this closely. We'll update this guide as soon as the change is confirmed. [Source: Bangkok Post, Nation Thailand]
 
 ---
 
@@ -13,7 +15,7 @@
 | **LTR** | ~$1,400 + 50K THB | 1 year/entry (10yr visa) | $80K/year | Yes (digital work permit) | High earners |
 | **Elite** | $18,500-142,800 | 5-20 years | None | No | Wealthy, hassle-free |
 | **Tourist** | $40-200 | 60+30 days | 20K THB proof | No | Short visits |
-| **Visa Exempt** | Free | 60+30 days (air) | 20K THB proof | No | Quick trips |
+| **Visa Exempt** | Free | 60+30 days (air) ⚠️ | 20K THB proof | No | Quick trips |
 | **Education** | ~$60 + school fees | 90 days renewable | 20K THB proof | No | Budget long-stay |
 
 ---
@@ -68,6 +70,8 @@ Thailand's TDAC system now **cross-references bank inflows with visa types**. DT
 - **Location Verification (NEW):** You must now apply at the embassy in your actual country of residence. Proof required: a utility bill or driver's license matching the embassy's country
 - **Health insurance required:** Minimum coverage of 40,000 THB (inpatient) + 10,000 THB (outpatient) for your stay duration. [SafetyWing](https://safetywing.com/?referenceID=26492570&utm_source=26492570&utm_medium=Ambassador) meets this requirement
 - **Soft Power courses deprioritized:** Short-term Muay Thai or cooking courses are now being directed to Education Visas instead of DTV. The "workcation" (remote work) pathway remains the primary DTV route
+- **Language school enrollments rejected (NEW March 2026):** Thai language school enrollment is no longer accepted as a basis for DTV applications — use an Education Visa instead
+- **Cash verification at entry:** Immigration officers may require visitors to show physical cash equivalent to **20,000 THB (~$550)** per person. Mobile banking screenshots and bank statements are NOT accepted — carry actual cash or ATM-withdrawn notes
 - **TDAC (Thailand Digital Arrival Card)** is now mandatory for all foreign arrivals — complete it online within 72 hours before travel at [tdac.immigration.go.th](https://tdac.immigration.go.th). This replaced the old TM.6 paper form
 
 ### Verdict
@@ -119,8 +123,10 @@ Citizens of **93 countries** can enter Thailand without a visa.
 
 | Entry Method | Stay Duration | Extendable? |
 |-------------|--------------|-------------|
-| **By air** | 60 days | Yes: +30 days, then +7 days |
+| **By air** | 60 days ⚠️ | Yes: +30 days, then +7 days |
 | **By land** | 30 days | **No** |
+
+> ⚠️ **Pending change:** May be reduced to **30 days** (air) pending Cabinet approval. See the alert at the top of this page.
 
 ### ⚠️ The November 2025 Crackdown
 
