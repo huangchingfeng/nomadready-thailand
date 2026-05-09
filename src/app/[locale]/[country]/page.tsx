@@ -11,7 +11,7 @@ interface PageProps {
 const COUNTRY_META: Record<Country, { name: string; description: string }> = {
   thailand: {
     name: 'Thailand',
-    description: '11 chapters covering everything you need to live and work in Thailand. Chapters 1-3 are free.',
+    description: '12 chapters covering everything you need to live and work in Thailand, including a free Pattaya city field guide.',
   },
   bali: {
     name: 'Bali, Indonesia',
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: PageProps) {
 }
 
 export default async function CountryGuidePage({ params }: PageProps) {
-  const { country } = await params;
+  const { locale, country } = await params;
 
   if (!SUPPORTED_COUNTRIES.includes(country as Country)) {
     notFound();
@@ -66,14 +66,14 @@ export default async function CountryGuidePage({ params }: PageProps) {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <Sidebar chapters={sidebarChapters} country={typedCountry} />
+      <Sidebar chapters={sidebarChapters} country={typedCountry} locale={locale} />
 
       {/* Main content */}
       <div className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-10">
         <div className="max-w-4xl mx-auto">
           {/* Back to country selection */}
           <Link
-            href="/"
+            href={`/${locale}`}
             className="inline-flex items-center gap-1.5 text-sm text-[var(--text-muted)] hover:text-[var(--text-secondary)] mb-8 transition-colors"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -90,6 +90,30 @@ export default async function CountryGuidePage({ params }: PageProps) {
             <p className="text-[var(--text-secondary)] text-lg">
               {meta.description}
             </p>
+
+            {typedCountry === 'thailand' && (
+              <Link
+                href={`/${locale}/thailand/12-pattaya-workation-field-guide`}
+                className="group mt-6 block rounded-xl border border-cyan-500/30 bg-cyan-500/5 p-5 hover:border-cyan-400 transition"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                  <div>
+                    <span className="text-xs font-medium text-cyan-400 uppercase tracking-wider">
+                      New free city deep dive
+                    </span>
+                    <h2 className="mt-2 text-xl font-semibold text-[var(--text-primary)] group-hover:text-cyan-400 transition">
+                      Pattaya Workation Field Guide
+                    </h2>
+                    <p className="mt-2 text-sm text-[var(--text-secondary)] leading-relaxed">
+                      A practical beach-base playbook for remote workers who want lower costs, sane routines, and nightlife-aware budgeting.
+                    </p>
+                  </div>
+                  <span className="text-sm font-medium text-cyan-400 whitespace-nowrap">
+                    Read the field guide →
+                  </span>
+                </div>
+              </Link>
+            )}
           </div>
 
           {/* Chapter cards grid */}
@@ -104,7 +128,7 @@ export default async function CountryGuidePage({ params }: PageProps) {
                 return (
                   <Link
                     key={chapter.slug}
-                    href={`/${typedCountry}/${chapter.slug}`}
+                    href={`/${locale}/${typedCountry}/${chapter.slug}`}
                     className="group bg-[var(--bg-card)] border border-[var(--border)] hover:border-[var(--text-muted)] rounded-xl overflow-hidden transition-all duration-200"
                   >
                     {/* Chapter image (Thailand only for now) */}

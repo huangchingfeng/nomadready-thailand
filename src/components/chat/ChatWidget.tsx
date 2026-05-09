@@ -340,7 +340,7 @@ export default function ChatWidget() {
             setIsOpen(true);
             refreshRemaining();
           }}
-          className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-cyan-500 hover:bg-cyan-400 text-white shadow-lg shadow-cyan-500/25 flex items-center justify-center transition-all duration-200 hover:scale-105 group"
+          className="fixed bottom-4 right-4 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-cyan-500 text-white shadow-lg shadow-cyan-500/25 transition-all duration-200 hover:scale-105 hover:bg-cyan-400 sm:bottom-6 sm:right-6 sm:h-14 sm:w-14"
           aria-label="Open chat"
         >
           {/* 脈衝動畫 */}
@@ -348,7 +348,7 @@ export default function ChatWidget() {
 
           {/* 聊天圖示 SVG */}
           <svg
-            className="w-6 h-6 relative z-10"
+            className="relative z-10 h-5 w-5 sm:h-6 sm:w-6"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -362,7 +362,7 @@ export default function ChatWidget() {
           </svg>
 
           {/* 剩餘次數 badge */}
-          <span className="absolute -top-1 -right-1 bg-slate-900 text-cyan-400 text-[10px] font-semibold px-1.5 py-0.5 rounded-full border border-cyan-500/30 whitespace-nowrap">
+          <span className="absolute -top-1 -right-1 hidden whitespace-nowrap rounded-full border border-cyan-500/30 bg-slate-900 px-1.5 py-0.5 text-[10px] font-semibold text-cyan-400 sm:block">
             {badgeText}
           </span>
         </button>

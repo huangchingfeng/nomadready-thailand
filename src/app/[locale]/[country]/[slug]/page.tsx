@@ -7,7 +7,6 @@ import {
   SUPPORTED_COUNTRIES,
   type Country,
 } from '@/lib/content';
-import { SUPPORTED_LOCALES } from '@/lib/i18n';
 import Sidebar from '@/components/layout/Sidebar';
 import ChapterReader from '../../guide/[slug]/ChapterReader';
 
@@ -96,6 +95,7 @@ export default async function CountryChapterPage({ params }: PageProps) {
         prev={prev ? { slug: prev.slug, title: prev.title } : null}
         next={next ? { slug: next.slug, title: next.title } : null}
         country={typedCountry}
+        locale={locale}
       />
     </div>
   );

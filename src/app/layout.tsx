@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import ThemeProvider from '@/components/ui/ThemeProvider';
 import { Analytics } from '@vercel/analytics/react';
+import AttributionTracker from '@/components/analytics/AttributionTracker';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -53,6 +54,7 @@ export default function RootLayout({
         className={`${inter.variable} font-sans bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased min-h-screen transition-colors duration-200`}
       >
         <ThemeProvider>
+          <AttributionTracker />
           {children}
           <Analytics />
         </ThemeProvider>

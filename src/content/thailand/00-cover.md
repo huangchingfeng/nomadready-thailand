@@ -24,6 +24,7 @@
 | 9 | Safety & Practical Tips |
 | 10 | Community & Social Scene |
 | Bonus | 30-Day Action Checklist |
+| City Field Guide | Pattaya Workation Field Guide |
 
 ---
 
@@ -34,6 +35,8 @@ This guide was built for one purpose: **save you 40+ hours of research.**
 Instead of piecing together outdated Reddit posts, conflicting blog articles, and YouTube videos, you get everything in one place — verified, organized, and updated for 2026.
 
 Whether you're planning your first month in Bangkok or your third year in Chiang Mai, this guide covers the practical details that actually matter.
+
+**New city deep dive:** The Pattaya Workation Field Guide is included as a free city-level chapter for nomads who want beach life, lower living costs, and a healthier alternative to the usual high-spend nightlife loop.
 
 **Important:** Thailand's visa rules changed significantly in late 2025. Many guides written before November 2025 contain outdated information. This guide reflects the latest policies as of March 2026.
 

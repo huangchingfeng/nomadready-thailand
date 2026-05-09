@@ -34,9 +34,10 @@ interface ChapterReaderProps {
   prev: NavChapter | null;
   next: NavChapter | null;
   country?: string;
+  locale?: string;
 }
 
-export default function ChapterReader({ chapter, headings, prev, next, country = 'thailand' }: ChapterReaderProps) {
+export default function ChapterReader({ chapter, headings, prev, next, country = 'thailand', locale = 'en' }: ChapterReaderProps) {
   const [isPro, setIsPro] = useState(false);
   const [hasEmail, setHasEmail] = useState(false);
   const [activeHeading, setActiveHeading] = useState('');
@@ -160,7 +161,7 @@ export default function ChapterReader({ chapter, headings, prev, next, country =
               <div className="flex flex-col sm:flex-row items-stretch gap-4">
                 {prev ? (
                   <Link
-                    href={`/${country}/${prev.slug}`}
+                    href={`/${locale}/${country}/${prev.slug}`}
                     className="flex-1 group flex items-center gap-3 p-4 rounded-xl bg-[var(--bg-card)] border border-[var(--border)] hover:border-[var(--text-muted)] transition-all"
                   >
                     <svg className="w-5 h-5 text-[var(--text-muted)] group-hover:text-[var(--text-secondary)] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -178,7 +179,7 @@ export default function ChapterReader({ chapter, headings, prev, next, country =
                 )}
                 {next ? (
                   <Link
-                    href={`/${country}/${next.slug}`}
+                    href={`/${locale}/${country}/${next.slug}`}
                     className="flex-1 group flex items-center justify-end gap-3 p-4 rounded-xl bg-[var(--bg-card)] border border-[var(--border)] hover:border-[var(--text-muted)] transition-all text-right"
                   >
                     <div className="min-w-0">

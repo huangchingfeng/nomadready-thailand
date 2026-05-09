@@ -31,6 +31,7 @@ const CHAPTER_DESCRIPTIONS: Record<Country, Record<number, string>> = {
     9: 'Scams to avoid, transportation, etiquette, emergency numbers, and daily life hacks.',
     10: 'Nomad communities, meetups, dating, making friends, and finding your tribe.',
     11: 'Day-by-day action plan from pre-departure to fully settled. Print it. Check it off.',
+    12: 'A Pattaya city deep dive for remote workers who want beach life, sane routines, lower costs, and controlled nightlife spending.',
   },
   bali: {
     0: "Overview of the complete Bali guide and what you'll learn inside.",
@@ -79,8 +80,9 @@ export function getAllChapters(country: Country): Chapter[] {
     const content = fs.readFileSync(path.join(contentDir, file), 'utf-8');
     const title = extractTitleFromContent(content);
 
-    // Chapters 00-03 are free, 04-06 require email, 07-11 require Pro
-    const isFree = chapterNumber <= 3;
+    // Chapters 00-03 are free, 04-06 require email, 07-11 require Pro.
+    // City field guides are free acquisition assets for SEO and social launch tests.
+    const isFree = chapterNumber <= 3 || (country === 'thailand' && chapterNumber === 12);
     const isEmailGated = chapterNumber >= 4 && chapterNumber <= 6;
     const descriptions = CHAPTER_DESCRIPTIONS[country];
 

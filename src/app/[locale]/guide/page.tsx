@@ -10,10 +10,11 @@ export async function generateStaticParams() {
 
 export const metadata = {
   title: 'Guide — NomadReady: Thailand',
-  description: 'Browse all 11 chapters of the Thailand digital nomad guide. Visa, cost of living, neighborhoods, coworking, banking, healthcare, and more.',
+  description: 'Browse all chapters of the Thailand digital nomad guide. Visa, cost of living, neighborhoods, coworking, banking, healthcare, Pattaya workation fieldwork, and more.',
 };
 
-export default function GuidePage() {
+export default async function GuidePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const chapters = getAllChapters('thailand');
 
   const sidebarChapters = chapters.map((ch) => ({
@@ -26,7 +27,7 @@ export default function GuidePage() {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <Sidebar chapters={sidebarChapters} country="thailand" />
+      <Sidebar chapters={sidebarChapters} country="thailand" locale={locale} />
 
       {/* Main content */}
       <div className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-10">
@@ -37,8 +38,8 @@ export default function GuidePage() {
               Thailand Digital Nomad Guide
             </h1>
             <p className="text-[var(--text-secondary)] text-lg">
-              11 chapters covering everything you need to live and work in Thailand.
-              Chapters 1-3 are free.
+              12 chapters covering everything you need to live and work in Thailand.
+              Chapters 1-3 plus the Pattaya field guide are free.
             </p>
           </div>
 
@@ -54,7 +55,7 @@ export default function GuidePage() {
                 return (
                   <Link
                     key={chapter.slug}
-                    href={`/thailand/${chapter.slug}`}
+                    href={`/${locale}/thailand/${chapter.slug}`}
                     className="group bg-[var(--bg-card)] border border-[var(--border)] hover:border-[var(--text-muted)] rounded-xl overflow-hidden transition-all duration-200"
                   >
                     {/* Chapter image */}
